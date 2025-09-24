@@ -199,6 +199,6 @@ git pull
 
 **A4:** Stop the current instance, switch to a different region, then create a new instance to pull the code.
 
-![Switch Region](https://img.alicdn.com/imgextra/i3/O1CN01U0MWdZ1qP6HjtBbCW_!!6000000005487-2-tps-1674-1076.png)
+<img src="https://img.alicdn.com/imgextra/i3/O1CN01U0MWdZ1qP6HjtBbCW_!!6000000005487-2-tps-1674-1076.png" width="800px">
 
 This often resolves network latency or connectivity issues, especially when accessing repositories from regions with restricted or slow external access.
