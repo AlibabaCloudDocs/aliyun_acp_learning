@@ -50,6 +50,15 @@ Please follow the instructions below based on your region:
 4. Once the instance status shows as **Running**, click **Open** in the **Actions** column to access the online Notebook interface provided by DSW.
 
 > ⚠️ **Important Note**: Charges will apply based on the runtime of the instance. Be sure to stop the instance when not in use to avoid unnecessary costs.
+>
+> 🔒 **How to Avoid Charges After Free Trial**
+> 
+> The free trial quota automatically covers DSW instance costs. However, once the quota is exhausted or expires, you must manually stop or delete the instance to prevent pay-as-you-go charges.
+> 
+> **Stop**: Halts billing for compute resources (CPU/GPU) while preserving storage.
+> 
+> **Delete**: Fully releases all resources and stops all billing (including potential storage fees).
+
 
 
 ### IV. Environment setup and course code download
