@@ -1,6 +1,7 @@
-# ACP Course Release Notes
+# Release Notes
 
-## Version 1.0.0 (Initial Release)
+## Version 1.0.0 (Initial Release for English)
+> Update：2025.09.30
 
 ### Overview
 This is the first English release of the ACP (Alibaba Cloud Practitioner) course, translated from the original Chinese version. This course focuses on building practical LLM-based Q&A systems using Alibaba Cloud's technologies.
