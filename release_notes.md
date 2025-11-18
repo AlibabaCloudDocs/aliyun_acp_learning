@@ -1,5 +1,72 @@
 # Release Notes
 
+## V2.2.0 重构 Agent 章节
+> 变更时间：2025.11.14
+
+本次重构是对 Agent 章节的全面升级，旨在帮助学员系统性地理解并掌握构建生产级 Agent 系统的完整知识体系。课程涵盖工具使用、反思机制、工作流编排、自主规划、多智能体协作、记忆系统和评测驱动开发七项核心主题，并引入 AgentScope 生产级框架进行实践。
+
+**优化/新增内容示例**
+<style>
+.workflow-table{width:100%;border-collapse:collapse;table-layout:fixed}
+.workflow-table th,.workflow-table td{border:1px solid #ddd;padding:15px;vertical-align:middle}
+.col-workflow{width:33%}.col-planning{width:33%}.col-testing{width:34%}
+.workflow-table img{max-width:100%;height:auto;margin:10px 0}
+.workflow-table strong{color:#333;display:block;margin:15px 0 5px 0}
+</style>
+<table class="workflow-table">
+    <thead>
+        <tr>
+            <th class="col-workflow">任务分解与工作流</th>
+            <th class="col-planning">自主规划与协作</th>
+            <th class="col-testing">评测驱动开发</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="col-workflow">
+                <strong>五种工作流模式：</strong>
+                从流水线到混合专家(MoA)，系统讲解如何将复杂任务拆解为可管理的工作流
+                <br>
+                <img src="https://img.alicdn.com/imgextra/i1/O1CN01EXhfK11e9jdlOug9P_!!6000000003829-55-tps-2634-832.svg" style="width: 100%;">
+            </td>
+            <td class="col-planning">
+                <strong>从固定流程到自主规划：</strong>
+                让Agent根据目标动态生成解决方案，突破预设流程限制
+                <br>
+                <img src="https://img.alicdn.com/imgextra/i4/O1CN011sQMUF1wYcEwgFLP2_!!6000000006320-55-tps-2466-338.svg" style="width: 100%;">
+            </td>
+            <td class="col-testing">
+                <strong>端到端与白盒化评测：</strong>
+                建立系统化评测体系，用数据驱动Agent优化
+                <br>
+                <img src="https://img.alicdn.com/imgextra/i1/O1CN01GStBBr1atkyWvwMfG_!!6000000003388-55-tps-2492-750.svg" style="width: 100%;">
+            </td>
+        </tr>
+        <tr>
+            <td class="col-workflow">
+                <strong>人机协作(HITL)：</strong>
+                将人类决策融入工作流关键节点，构建可信AI系统
+                <br>
+                <img src="https://img.alicdn.com/imgextra/i4/O1CN01NZl8hd1ccveddhurU_!!6000000003622-55-tps-1702-410.svg" style="width: 100%;">
+            </td>
+            <td class="col-planning">
+                <strong>多智能体协作：</strong>
+                分层规划与共创协作两种模式，模拟现实团队工作方式
+                <br>
+                <img src="https://img.alicdn.com/imgextra/i2/O1CN01AV1vcB1haFPmNB5lg_!!6000000004293-55-tps-1923-536.svg" style="width: 100%;">
+            </td>
+            <td class="col-testing">
+                <strong>AgentScope评测框架：</strong>
+                使用生产级框架实现完整评测闭环
+                <br>
+                <img src="https://img.alicdn.com/imgextra/i4/O1CN01LGHa2C1g5jPSQgRUV_!!6000000004091-55-tps-1922-500.svg" style="width: 100%;">
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<hr style="border: 2px solid black;">
+
 ## V2.1.0 引入 Meta Prompting
 > 变更时间：2025.07.28
 
