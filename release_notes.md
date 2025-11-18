@@ -6,13 +6,7 @@
 本次重构是对 Agent 章节的全面升级，旨在帮助学员系统性地理解并掌握构建生产级 Agent 系统的完整知识体系。课程涵盖工具使用、反思机制、工作流编排、自主规划、多智能体协作、记忆系统和评测驱动开发七项核心主题，并引入 AgentScope 生产级框架进行实践。
 
 **优化/新增内容示例**
-<style>
-.workflow-table{width:100%;border-collapse:collapse;table-layout:fixed}
-.workflow-table th,.workflow-table td{border:1px solid #ddd;padding:15px;vertical-align:middle}
-.col-workflow{width:33%}.col-planning{width:33%}.col-testing{width:34%}
-.workflow-table img{max-width:100%;height:auto;margin:10px 0}
-.workflow-table strong{color:#333;display:block;margin:15px 0 5px 0}
-</style>
+
 <table class="workflow-table">
     <thead>
         <tr>
