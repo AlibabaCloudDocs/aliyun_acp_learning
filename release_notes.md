@@ -19,7 +19,7 @@
         <tr>
             <td class="col-workflow">
                 <strong>五种工作流模式：</strong>
-                从流水线到混合专家(MoA)，系统讲解如何将复杂任务拆解为可管理的工作流
+                从流水线到混合专家(Mixture-of-Agents, MoA)，系统讲解如何将复杂任务拆解为可管理的工作流
                 <br>
                 <img src="https://img.alicdn.com/imgextra/i1/O1CN01EXhfK11e9jdlOug9P_!!6000000003829-55-tps-2634-832.svg" style="width: 100%;">
             </td>
