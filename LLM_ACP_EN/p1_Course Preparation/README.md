@@ -93,7 +93,7 @@ Execute the following command in the DSW Terminal to download a script that auto
 
 ```bash
 wget https://developer-labfileapp.oss-cn-hangzhou.aliyuncs.com/ACP/LLM/en/alibabacloud_llm_acp_install.sh
-bash aliyun_llm_acp_install.sh
+bash alibabacloud_llm_acp_install.sh
 ```
 
 
