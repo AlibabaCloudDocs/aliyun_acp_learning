@@ -24,6 +24,7 @@ def create_agent(
     model = DashScopeChatModel(
         model_name=model_name,
         api_key=os.environ.get("DASHSCOPE_API_KEY", "your-api-key"),
+        base_http_api_url = os.getenv("DASHSCOPE_BASE_HTTP_API_URL"),
         stream=False,
     )
 
