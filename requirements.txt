@@ -1,36 +1,49 @@
-gradio==4.32.0
-faiss-cpu==1.8.0.post1
-dashscope==1.20.14
-llama-index-vector-stores-faiss==0.1.2
-llama-index-embeddings-dashscope==0.1.4
-llama-index-readers-file==0.1.33
-docx2txt==0.8
+# LlamaIndex 生态（已全部升级到 v0.12+ 兼容版本）
+llama-index-core==0.12.52.post1
+llama-index-vector-stores-faiss==0.4.0
+llama-index-embeddings-dashscope==0.3.0
+llama-index-readers-file==0.4.11
+llama-index-llms-dashscope==0.4.1
+llama-index-readers-dashscope==0.3.0
+llama-index-llms-openai-like==0.4.0
+llama-index-embeddings-openai-like==0.2.0
+
+# LangChain 生态（已全部升级）
+langchain==0.3.27
+langchain-core==0.3.80
+langchain-community==0.3.31
+langchain-openai==0.3.29
+langchain-text-splitters==0.3.11
+
+# Web 与 API 框架
+gradio==3.36.1
+fastapi==0.123.8
+uvicorn==0.31.1
+
+# 数据科学、评估与底层库
+faiss-cpu==1.13.0
+dashscope==1.22.2
+docx2txt==0.9
 openpyxl==3.1.5
-llama-index-core==0.10.67
-llama-index-llms-dashscope==0.1.2
-llama-index-readers-dashscope==0.1.2
-llama-index-llms-openai-like==0.1.3
-fastapi==0.114.1
-llama-index-postprocessor-dashscope-rerank-custom==0.1.0
-simplejson==3.19.3
-matplotlib==3.9.2
+matplotlib==3.10.7
+pandas==2.2.3
+seaborn==0.13.2
 ragas==0.1.9
-langchain_community==0.2.17
-alibabacloud_bailian20231229==1.8.2
-pandas==2.0.3
+httpx==0.27.1
+openai==1.90.0
+
+# 阿里云与其他框架
+alibabacloud_green20220302==2.21.2
 oss2==2.19.0
 lagent==0.1.2
 mmengine==0.10.3
-ipywidgets==8.1.7
 modelscope==1.18.1
-alibabacloud_green20220302==2.21.2
-seaborn==0.13.2
-langchain==0.2.17 
-langchain-core==0.2.43 
-langchain-openai==0.1.25 
-langchain-text-splitters==0.2.4 
 agentscope==1.0.6
-httpx==0.27.1
-uvicorn==0.31.1
 mem0ai==0.1.118
-openai==1.90.0
+ipywidgets==8.1.7
+pymupdf4llm==0.2.6
+
+# --- 注意：以下包已从列表中移除 ---
+# llama-index-postprocessor-dashscope-rerank-custom==0.1.0 (已废弃)
+alibabacloud_bailian20231229==1.8.2
+simplejson==3.19.3
