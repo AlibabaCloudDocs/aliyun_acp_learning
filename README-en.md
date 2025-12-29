@@ -10,7 +10,7 @@ This guide prepares you for the **Alibaba Cloud Certified LLM Engineer - Profess
 
 Before you begin, review the **Alibaba Cloud Certified LLM Engineer - Professional** certification path. This helps you select the correct course for your skill level.
 
-<img src="https://gw.alicdn.com/imgextra/i1/O1CN01MC00f61wMhpgctA1q_!!6000000006294-0-tps-1445-478.jpg" alt="My notebook" width="800px">
+<img src="https://img.alicdn.com/imgextra/i3/O1CN01UzUyqN1b9mqcDfM49_!!6000000003423-2-tps-2464-836.png" alt="My notebook" width="800px">
 
 > If you lack programming fundamentals or want to start learning about LLMs from scratch, please go to:point_right:[Alibaba Cloud LLM ACA Engineer Certification Course](https://edu.aliyun.com/course/3126500)
 
