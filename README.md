@@ -64,34 +64,34 @@
     <td style="padding:10px; border: 1px solid #ddd;">计算环境准备</td>
   </tr>
   <tr>
-    <td rowspan="9" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">2</td>
-    <td rowspan="9" style="padding:10px; border: 1px solid #ddd;">借助大模型构建答疑机器人</td>
+    <td rowspan="11" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">2</td>
+    <td rowspan="11" style="padding:10px; border: 1px solid #ddd;">借助大模型构建答疑机器人</td>
     <td style="padding:10px; border: 1px solid #ddd;">2.0</td>
     <td style="padding:10px; border: 1px solid #ddd;">项目背景</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">2.1</td>
-    <td style="padding:10px; border: 1px solid #ddd;">开始构建新人答疑机器人</td>
+    <td style="padding:10px; border: 1px solid #ddd;">用大模型构建新人答疑机器人</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">2.2</td>
-    <td style="padding:10px; border: 1px solid #ddd;">优化提示词改善答疑机器人回答质量</td>
+    <td style="padding:10px; border: 1px solid #ddd;">扩展答疑机器人的知识范围</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">2.3</td>
-    <td style="padding:10px; border: 1px solid #ddd;">自动化评测答疑机器人的表现</td>
+    <td style="padding:10px; border: 1px solid #ddd;">优化提示词改善答疑机器人回答质量</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">2.4</td>
-    <td style="padding:10px; border: 1px solid #ddd;">优化RAG应用提升问答准确度</td>
+    <td style="padding:10px; border: 1px solid #ddd;">自动化评测答疑机器人的表现</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">2.5</td>
-    <td style="padding:10px; border: 1px solid #ddd;">用插件扩展答疑机器人的能力边界</td>
+    <td style="padding:10px; border: 1px solid #ddd;">优化RAG应用提升问答准确度</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">2.6</td>
-    <td style="padding:10px; border: 1px solid #ddd;">大模型RAG内容安全合规检查</td>
+    <td style="padding:10px; border: 1px solid #ddd;">构建Agent完成复杂任务</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">2.7</td>
@@ -99,7 +99,15 @@
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">2.8</td>
-    <td style="padding:10px; border: 1px solid #ddd;">部署模型到生产环境中</td>
+    <td style="padding:10px; border: 1px solid #ddd;">部署模型</td>
+  </tr>
+  <tr>
+    <td style="padding:10px; border: 1px solid #ddd;">2.9</td>
+    <td style="padding:10px; border: 1px solid #ddd;">大模型应用生产实践</td>
+  </tr>
+  <tr>
+    <td style="padding:10px; border: 1px solid #ddd;">2.A</td>
+    <td style="padding:10px; border: 1px solid #ddd;">大模型应用安全合规</td>
   </tr>
     <tr>
     <td rowspan="6" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">3</td>

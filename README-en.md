@@ -90,7 +90,7 @@ This course is project-based. You will act as an employee at an educational cont
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">2.6</td>
-    <td style="padding:10px; border: 1px solid #ddd;">Extend FAQ Bot Capabilities with Plugins</td>
+    <td style="padding:10px; border: 1px solid #ddd;">Building an Agent to Accomplish Complex Tasks</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">2.7</td>
