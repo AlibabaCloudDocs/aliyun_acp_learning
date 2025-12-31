@@ -1,6 +1,6 @@
 # 3 Summary and outlook
 
-Through the learning of previous courses, you have gained an in-depth understanding of the development and improvement process of large language models (LLMs) applications by building and progressively optimizing a Q&A bot. 
+Throughout these courses, you have gained an in-depth understanding of the development and improvement by building and progressively optimizing a Q&A bot.
 Below are several key points:
 
 1. **Easy to launch, hard to improve**: Although it is relatively simple to develop and launch LLM applications, achieving good results requires continuous investment and a deep understanding of the business. Establishing objective evaluation methods and efficient evaluation mechanisms with domain experts is crucial.
@@ -25,7 +25,7 @@ Creating compelling visual, audio, and video content has never been easier — a
 
 Whether you're a marketer, content creator, or developer, Smart Studio offers a suite of powerful AIGC (Artificial Intelligence Generated Content) features that allow you to bring your imagination to life in seconds.
 
-🔗 Try it out now at: [https://industrysolutions.alibabacloud.com/demo/smartstudio](https://industrysolutions.alibabacloud.com/demo/smartstudio)
+🔗 Try it out now: [https://industrysolutions.alibabacloud.com/demo/smartstudio](https://industrysolutions.alibabacloud.com/demo/smartstudio)
 
 Here are just a few of the creative tools you can explore:
 
@@ -57,7 +57,7 @@ Generate realistic voiceovers in seconds. Whether you're creating a marketing vi
 
 ---
 
-**💡 Why use smart studio?**
+**💡 Why Use Smart Studio?**
 
 - **Fast & Easy**: No coding or design experience needed—just describe what you want and let AI do the rest.
 - **High-Quality Output**: Generate professional-grade content that looks and sounds amazing.
@@ -69,7 +69,7 @@ Generate realistic voiceovers in seconds. Whether you're creating a marketing vi
 
 ### 1.2 Real-time audio and video calls with AI
 
-Suppose your customer service center handles thousands of complex customer inquiries every day, and human customer service agents struggle to respond to and resolve each customer's issues in real time. You can consider using the [AI Real-time Audio and Video Interaction](https://www.alibabacloud.com/en/solutions/ai-application/real-time-interaction) solution. Relying on the Video Cloud ARTC network, the entire interaction process is stable, efficient, and has extremely low latency, fully meeting the requirements of commercial scenarios. Below is an illustration of the system's architecture:
+Suppose your customer service center handles thousands of complex customer inquiries every day, and human agents struggle to respond to and resolve each customer's issues in real time. You can consider using the [AI Real-time Audio and Video Interaction](https://www.alibabacloud.com/en/solutions/ai-application/real-time-interaction) solution. Relying on the Video Cloud ARTC network, the entire interaction process is stable, efficient, and has extremely low latency, fully meeting the requirements of commercial scenarios. Below is an illustration of the system's architecture:
 
 <a href="https://img.alicdn.com/imgextra/i1/O1CN01wmjg881zTWcHmgTV8_!!6000000006715-0-tps-7833-3667.jpg" target="_blank">
 <img src="https://img.alicdn.com/imgextra/i1/O1CN01wmjg881zTWcHmgTV8_!!6000000006715-0-tps-7833-3667.jpg" width="800">
@@ -86,7 +86,7 @@ Now, [deploy an instance](https://www.alibabacloud.com/en/solutions/ai-applicati
 
 
 ### 1.3 Pair programming with an AI developer, instantly become a full-stack developer
-You may want to quickly add a new feature to your e-commerce system but are struggling with a lack of manpower? The Lingma AI Developer is your 24/7 on-call programming partner! It can:
+Want to quickly add a new feature to your e-commerce system but are struggling with a lack of manpower? The Lingma AI Developer is your 24/7 on-call programming partner! It can:
 - **One-click generation for the entire process**
 From requirement implementation to unit testing, from code fixes to batch modifications, complex code writing is "one-click generated" with full intelligent collaboration from AI.
 - **Zero pressure for full-stack requirements**
@@ -99,10 +99,10 @@ You focus on architectural design and core logic, while repetitive coding, confi
 <img src="https://img.alicdn.com/imgextra/i1/O1CN01W0cNh11F81jzWyiXz_!!6000000000441-1-tps-1726-990.gif" width="700" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">
 </a>
 
-For detailed processes, please refer to [Lingma Quick start for Individual Edition](https://www.alibabacloud.com/help/en/lingma/getting-started/individual-edition-quick-start). Let the AI Developer become your right-hand assistant now, [Download and experience immediately](https://www.alibabacloud.com/help/en/lingma/user-guide/download-the-installation-guide)!
+For detailed processes, refer to [Lingma Quick start for Individual Edition](https://www.alibabacloud.com/help/en/lingma/getting-started/individual-edition-quick-start). Let the AI Developer become your right-hand assistant now, [Download and experience immediately](https://www.alibabacloud.com/help/en/lingma/user-guide/download-the-installation-guide)!
 
 
-> If you want to build a high-quality enterprise code repository for admins, and provides best practices for backend and frontend developers, you can use [Best practices for knowledge base as context for code completion](https://www.alibabacloud.com/help/en/lingma/use-cases/enterprise-code-completion-enhancement-best-practice). 
+> If you want to build a high-quality enterprise code repository for admins that provides best practices for backend and frontend developers, you can use [Best practices for knowledge base as context for code completion](https://www.alibabacloud.com/help/en/lingma/use-cases/enterprise-code-completion-enhancement-best-practice). 
 
 
 ## 🌏 2. AI is impacting thousands of industries
@@ -111,7 +111,7 @@ AI and LLMs have already seen successful implementations in many fields. The fol
 
 
 ### 2.1 Healthcare: Assisted diagnosis and health management
-In the healthcare field, innovations involving AI and LLMs are emerging one after another. Alibaba Cloud has collaborated with AstraZeneca to integrate vast amounts of medical knowledge literature and healthcare data, enabling the LLM to generate adverse drug reaction reports and improve pharmaceutical R&D efficiency. In 2020, DAMO Academy's healthcare AI team developed a large-scale assisted diagnosis system, which can quickly and accurately diagnose suspected cases of COVID-19 by analyzing patients' CT scans. The diagnosis takes only 20 seconds with an accuracy rate exceeding 96%. Additionally, Alibaba has partnered with multiple hospitals to significantly enhance the screening efficiency of lung diseases using its AI system, reducing the analysis time from several hours to just a few minutes.
+In the healthcare field, innovations involving AI and LLMs are emerging one after another. Alibaba Cloud has collaborated with AstraZeneca to integrate vast amounts of medical knowledge literature and healthcare data, enabling the LLM to generate adverse drug reaction reports and improve pharmaceutical R&D efficiency. In 2020, DAMO Academy's healthcare AI team developed a large-scale assisted diagnosis system that could quickly and accurately diagnose suspected cases of COVID-19 by analyzing patients' CT scans. The diagnosis takes only 20 seconds with an accuracy rate exceeding 96%. Additionally, Alibaba has partnered with multiple hospitals to significantly enhance the screening efficiency of lung diseases using its AI system, reducing the analysis time from several hours to just a few minutes.
 
 <img src="https://img.alicdn.com/imgextra/i3/O1CN01cuDZrW1c52JjViJgE_!!6000000003548-2-tps-3102-1676.png"  width=800>
 <img src="https://img.alicdn.com/imgextra/i4/O1CN01AOaBDt1ivbTC5lKw9_!!6000000004475-2-tps-3046-1528.png" width=800>
@@ -161,7 +161,7 @@ While Precision Learning exemplifies the power of LLMs in education, its applica
 - **Ethical frameworks**: Countries could adopt AI-driven tutoring with safeguards for:
   - Data privacy (such as GDPR in the EU, COPPA in the US)
   - Bias mitigation in content delivery
-  - Compliance with global standards like ISO/IEC 27001
+  - Compliance with global standards such as ISO/IEC 27001
 
   <img src="https://aliyun-aps-cloud-public.oss-cn-hangzhou.aliyuncs.com/img_946b7422dd46687c5d0c5916e2bc92a5.png?x-oss-process=image/resize,h_400,m_lfit" width="700" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">
 
@@ -172,7 +172,7 @@ Technical research and development work always excites technical professionals, 
 We hope that you will use this course as a starting point to continue exploring the limitless possibilities of LLMs, continuously improving yourself through practice, and creating more applications with both social and commercial value. Together with developers around the world, let’s write a new chapter in artificial intelligence!
 
 ### 3.1 Further reading: In-depth thinking model QwQ
-QwQ is a powerful reasoning AI model based on the Qwen2.5, available in both commercial and open-source versions. The commercial model (such as qwq-plus) significantly enhances performance in mathematics, coding, and general tasks through reinforcement learning, with core metrics comparable to the full version of DeepSeek-R2, offering both stable and latest snapshot versions. The open-source version (such as qwq-32b) also performs exceptionally well, surpassing similar distilled models. The model supports ultra-long contexts (131,072 tokens) and multi-round conversation, enabling continuous interaction scenarios, but does not support tool calling or structutred output. Its design focuses on reasoning effectiveness, making it suitable for applications requiring deep thinking and high-quality responses.
+QwQ is a powerful reasoning AI model based on the Qwen2.5, available in both commercial and open-source versions. The commercial model (such as qwq-plus) significantly enhances performance in mathematics, coding, and general tasks through reinforcement learning, with core metrics comparable to the full version of DeepSeek-R2, offering both stable and latest snapshot versions. The open-source version (such as qwq-32b) also performs exceptionally well, surpassing similar distilled models. The model supports ultra-long contexts (131,072 tokens) and multi-round conversation, enabling continuous interaction scenarios, but does not support tool calling or structured output. Its design focuses on reasoning effectiveness, making it suitable for applications requiring deep thinking and high-quality responses.
 
 You can experience the QwQ series models on Model Studio [here](https://modelstudio.console.alibabacloud.com/?tab=dashboard#/efm/prompt?modelId=qwq-plus), or refer to the Alibaba Cloud Help Center for [more information](https://www.alibabacloud.com/help/en/model-studio/models#fd7d313ca5khs).  
 
@@ -196,7 +196,7 @@ You can experience the QwQ series models on Model Studio [here](https://modelstu
 
 Learning is about persistence. Thank you for sticking with it until now. Next, you can take the certification exam.
 
-To help you smoothly obtain certification, here is a mock exam for the certification test. You can visit the Alibaba Cloud Training Center for the [Large Language Models ACP Certification Mock Exam]() to assess your learning outcomes.
+To help you smoothly obtain certification, take the mock exam at the Alibaba Cloud Training Center's [Large Language Models ACP Certification Mock Exam]() to assess your learning outcomes.
 
 Of course, if you have already mastered the basics of large language models (LLMs) development, you can log in to Alibaba Cloud and register for the [certification exam](). Best of luck on your exam!
 
