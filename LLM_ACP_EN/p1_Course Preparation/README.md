@@ -4,25 +4,16 @@
 
 Hands-on practice is an essential part of learning about large language models (LLMs). To help you better grasp the relevant knowledge, this course includes a variety of example code.
 
-We recommend that you use [Data Science Workshop (DSW)](https://help.aliyun.com/zh/pai/user-guide/dsw-overview) on Alibaba Cloud's Artificial Intelligence Platform (PAI) to complete your coursework. With PAI DSW, you can run code while reading the course documentation to better understand and apply LLMs.
+We recommend that you use [Data Science Workshop (DSW)](https://www.alibabacloud.com/help/en/pai/user-guide/dsw-overview) on Alibaba Cloud's Artificial Intelligence Platform (PAI) to work through this course. PAI DSW lets you run code alongside the course materials, helping you better understand and apply LLM concepts.
+
 ## Getting Started
 
 ### I. Create an Alibaba Cloud account
-
-Please follow the instructions below based on your region:
-
-- **International users**: [Alibaba Cloud International Site](https://www.alibabacloud.com)  
-  > If you are an international user, make sure to complete your identity verification and set up your payment method before getting started. Please note that the international site does not offer a free trial, so a valid payment method is required for service usage.
-
-- **Chinese mainland users**: [Aliyun Official Website](https://www.aliyun.com)  
-  > If you are a new user of **PAI DSW (Data Science Workshop)**, you can apply for a **free trial quota** through Aliyun's Free Trial program.  
-  > After claiming the free trial, you will receive **250 free compute hours per month** of CPU/GPU instances for three months. This is approximately:
-  > - **430 hours/month** of usage for an `ecs.g6.xlarge` CPU instance, or  
-  > - **35 hours/month** of usage for an `ecs.gn7i-c8g1.2xlarge` GPU instance
+Please log in to the [Alibaba Cloud International Site](https://www.alibabacloud.com), create an account if you don’t have one, complete identity verification, and bind a payment method to begin using services.
 
 ### II. Activate PAI and configure your workspace
 
-1. After logging into the [Alibaba Cloud Console](https://home.console.aliyun.com/), search for **Platform for AI (PAI)** in the product list and open the PAI console.
+1. After logging into the [Alibaba Cloud Console](https://home.console.alibabacloud.com), search for **Platform for AI (PAI)** in the product list and open the PAI console.
 2. If this is your first time using PAI, click **Activate PAI with One Click** and create a default workspace.  
    > ✅ **Recommendation**: Use your primary account for activation to avoid permission issues.
    <img src="https://img.alicdn.com/imgextra/i1/O1CN01XF6LJC1Fwri7TjrGX_!!6000000000552-2-tps-1784-1194.png" width="800px">
@@ -35,7 +26,7 @@ Please follow the instructions below based on your region:
 2. Fill in the following information:
 
    - **Instance Name**: e.g., `alibabacloud_acp_learning`
-   - **Resource Specifications**: Choose a suitable ECS specification based on your needs. Since there is no free trial, ensure that your account has sufficient balance or a linked credit card.
+   - **Resource Specifications**: Choose a suitable ECS specification based on your needs. Since there is no free trial, make sure your account has enough balance or a linked credit card.
      > For most course exercises, a CPU-based instance like `ecs.g6.xlarge` is sufficient. You can switch to GPU instances when necessary for specific chapters.
 
      <img src="https://img.alicdn.com/imgextra/i3/O1CN01pZ8CwZ1PGrXEujG79_!!6000000001814-2-tps-3436-1716.png" width="800px">
@@ -49,15 +40,15 @@ Please follow the instructions below based on your region:
 3. Leave other settings as default and click **OK** to create the instance. The creation process typically takes up to 5 minutes.
 4. Once the instance status shows as **Running**, click **Open** in the **Actions** column to access the online Notebook interface provided by DSW.
 
-> ⚠️ **Important Note**: Charges will apply based on the runtime of the instance. Be sure to stop the instance when not in use to avoid unnecessary costs.
+> ⚠️ **Important Note**: You'll be charged based on how long the instance runs. Be sure to stop the instance when not in use to avoid unnecessary costs.
 >
 > 🔒 **How to Avoid Charges After Free Trial**
 > 
-> The free trial quota automatically covers DSW instance costs. However, once the quota is exhausted or expires, you must manually stop or delete the instance to prevent pay-as-you-go charges.
+> The free trial quota automatically covers DSW instance costs. However, once your quota runs out or expires, you'll need to manually stop or delete the instance to avoid pay-as-you-go charges.
 > 
-> **Stop**: Halts billing for compute resources (CPU/GPU) while preserving storage.
+> **Stop**: Stops billing for compute resources (CPU/GPU) while preserving storage.
 > 
-> **Delete**: Fully releases all resources and stops all billing (including potential storage fees).
+> **Delete**: Releases all resources and stops all charges (including storage).
 
 
 
@@ -65,8 +56,7 @@ Please follow the instructions below based on your region:
 
 In DSW, you can access the command line environment by clicking Terminal at the top.
 
-Verify the environment variables by entering `python --version` in the Terminal to confirm that the current Python version is 3.10, and enter `pwd` to confirm that the current directory is <mark>/mnt/workspace</mark>.  
-
+Verify your environment by running `python --version` in the Terminal to confirm you're using Python 3.10, then run `pwd` to confirm you're in the <mark>/mnt/workspace</mark> directory.
 
 
 ```bash
@@ -76,7 +66,7 @@ pwd
 
 <img src="https://img.alicdn.com/imgextra/i2/O1CN016v7knf295qKb1IKYO_!!6000000008017-2-tps-1736-378.png" width="600px">
 
-If you are not in the **/mnt/workspace** directory, enter the following command to ensure smooth installation afterward:  
+If you are not in the **/mnt/workspace** directory, run this command first: 
 
 
 
@@ -99,7 +89,7 @@ bash alibabacloud_llm_acp_install.sh
 
 <img src="https://img.alicdn.com/imgextra/i1/O1CN01iWqgMe1fMqZeWM32D_!!6000000003993-2-tps-2520-554.png" width="800px">
 
-If this step executes successfully, you can skip the following manual installation steps.
+If this step completes successfully, you can skip the following manual installation steps.
 #### 2. Manual Installation
 
 ##### 2.1 Download Course Code
@@ -112,7 +102,7 @@ Enter the following command in the `Terminal` to obtain the code for the ACP cou
 git clone https://github.com/AlibabaCloudDocs/aliyun_acp_learning.git
 ```
 
-If you encounter network issues, you can also obtain it from atomgit: `git clone https://atomgit.com/alibabaclouddocs/aliyun_acp_learning.git`
+If you encounter network issues, you can also get it from atomgit: `git clone https://atomgit.com/alibabaclouddocs/aliyun_acp_learning.git`
 
 If you are familiar with Jupyter Notebook and wish to run it locally, we recommend using a Python 3.10 environment.
 
@@ -155,7 +145,7 @@ Next, you can sequentially navigate to the **LLM_ACP_EN -> p2_Build LLM Q&A Syst
 
 <img src="https://img.alicdn.com/imgextra/i4/O1CN01M456CR1ooAkJrk8tV_!!6000000005271-2-tps-884-1478.png" width="320px">
 
-After the course content installation is complete, you also need to **select the kernel** (default kernel: Python 3 (ipykernel)) in the upper right corner of the Notebook course (.ipynb file) and switch to the Python environment you just created, such as the `Python(llm_learn)` environment created above.<br>
+Once you've installed the course content, you'll need to **select the kernel** in the upper right corner of the Notebook (.ipynb file) and switch to the Python environment you just created (default kernel: Python 3 (ipykernel)), such as the `Python(llm_learn)`.<br>
 <img src="https://img.alicdn.com/imgextra/i1/O1CN01WXabpz1yRPDS3Br0q_!!6000000006575-2-tps-3808-1360.png" width="800px"><br>
 <img src="https://img.alicdn.com/imgextra/i4/O1CN01qRgpMM1MsvbedxeAb_!!6000000001491-2-tps-838-572.png" width="320px"><br>
 <img src="https://img.alicdn.com/imgextra/i3/O1CN01cOQpCw1rN6AZmHtfN_!!6000000005618-2-tps-848-356.png" width="320px"><br>
