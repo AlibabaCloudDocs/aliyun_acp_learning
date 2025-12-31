@@ -209,9 +209,9 @@
     <td style="padding:10px; border: 1px solid #ddd;">• 微调数据集构建、微调参数介绍、微调模型评测</td>
   </tr>
   <tr>
-    <td rowspan="2" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">多Agent及多模态应用</td>
-    <td style="padding:10px; border: 1px solid #ddd;">基于百炼Assistant API构建智能体</td>
-    <td style="padding:10px; border: 1px solid #ddd;">• 理解智能体运行机制<br>• 掌握用生成多模态内容、构建个性化语音助手等能力</td>
+    <td rowspan="2" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">智能体与应用</td>
+    <td style="padding:10px; border: 1px solid #ddd;">基于百炼API构建智能体</td>
+    <td style="padding:10px; border: 1px solid #ddd;">• 理解智能体运行机制<br>• 构造复杂工作流和多智能体应用</td>
     </tr>
     <tr>
     <td style="padding:10px; border: 1px solid #ddd;">构建更复杂的AI应用</td>

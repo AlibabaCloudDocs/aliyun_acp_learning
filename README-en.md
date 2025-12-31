@@ -205,9 +205,9 @@ Learning with purpose improves efficiency. Before starting, learn about the LLM 
     <td style="padding:10px; border: 1px solid #ddd;">• Dataset construction, parameter settings, and model evaluation for fine-tuning</td>
   </tr>
   <tr>
-    <td rowspan="2" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">Multi-agent and multimodal applications</td>
+    <td rowspan="2" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">Multi-agent applications</td>
     <td style="padding:10px; border: 1px solid #ddd;">Building agents with Model Studio Model API</td>
-    <td style="padding:10px; border: 1px solid #ddd;">• How agents work<br>• Generating multimodal content and creating personalized voice assistants</td>
+    <td style="padding:10px; border: 1px solid #ddd;">• How agents work<br>• Generating complex workflow and multi-agent applications</td>
     </tr>
     <tr>
     <td style="padding:10px; border: 1px solid #ddd;">Building complex AI applications</td>
