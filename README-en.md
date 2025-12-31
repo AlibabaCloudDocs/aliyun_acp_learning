@@ -206,7 +206,7 @@ Learning with purpose improves efficiency. Before starting, learn about the LLM 
   </tr>
   <tr>
     <td rowspan="2" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">Multi-agent and multimodal applications</td>
-    <td style="padding:10px; border: 1px solid #ddd;">Building agents with Model Studio Assistant API</td>
+    <td style="padding:10px; border: 1px solid #ddd;">Building agents with Model Studio Model API</td>
     <td style="padding:10px; border: 1px solid #ddd;">• How agents work<br>• Generating multimodal content and creating personalized voice assistants</td>
     </tr>
     <tr>
