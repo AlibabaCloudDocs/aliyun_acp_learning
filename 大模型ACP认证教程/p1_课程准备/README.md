@@ -3,7 +3,7 @@
 动手实践是学习大模型的过程中必不可少的环节。为了帮助你更好的掌握相关知识，本课程设计了丰富的示例代码。
 
 建议你通过阿里云人工智能平台 PAI 上的 DSW 进行课程学习，借助 PAI DSW，你可以像下图所示的那样，在阅读课程文档的同时运行代码，以便更好地理解和应用大模型。
-如果你是 PAI DSW 的新用户，可以通过 [阿里云的免费试用频道](https://free.aliyun.com/?searchKey=%E4%BA%A4%E4%BA%92%E5%BC%8F%E5%BB%BA%E6%A8%A1+PAI-DSW) 来领取免费试用额度。你也可以使用 [魔搭社区我的Notebook](https://modelscope.cn/my/mynotebook) 。请观看“视频教程”，再从“环境选择”开始，逐步创建你的学习环境。
+如果你是 PAI DSW 的新用户，可以通过 [阿里云的免费试用频道](https://free.aliyun.com/?searchKey=%E4%BA%A4%E4%BA%92%E5%BC%8F%E5%BB%BA%E6%A8%A1+PAI-DSW) 来领取免费试用额度。你也可以使用 [魔搭社区我的Notebook](https://modelscope.cn/my/mynotebook) 。请先观看“**视频教程**”，再从“**环境选择**”开始，逐步创建你的学习环境。
 
 
 <img src="https://img.alicdn.com/imgextra/i4/O1CN01jh8Sp41NNc4S3fp4u_!!6000000001558-1-tps-512-176.gif" alt="PAI DSW Notebook Demo" width="500px">
