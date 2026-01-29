@@ -72,14 +72,14 @@ Generate realistic voiceovers in seconds. Whether you're creating a marketing vi
 Suppose your customer service center handles thousands of complex customer inquiries every day, and human agents struggle to respond to and resolve each customer's issues in real time. You can consider using the [AI Real-time Audio and Video Interaction](https://www.alibabacloud.com/en/solutions/ai-application/real-time-interaction) solution. Relying on the Video Cloud ARTC network, the entire interaction process is stable, efficient, and has extremely low latency, fully meeting the requirements of commercial scenarios. Below is an illustration of the system's architecture:
 
 <a href="https://img.alicdn.com/imgextra/i1/O1CN01wmjg881zTWcHmgTV8_!!6000000006715-0-tps-7833-3667.jpg" target="_blank">
-<img src="https://img.alicdn.com/imgextra/i1/O1CN01wmjg881zTWcHmgTV8_!!6000000006715-0-tps-7833-3667.jpg" width="800">
+<img src="https://img.alicdn.com/imgextra/i1/O1CN01wmjg881zTWcHmgTV8_!!6000000006715-0-tps-7833-3667.jpg" width="1000">
 </a>
 
 For businesses requiring voice-centric interactions, an audio dialogue assistant can be deployed.
 
 
 <a href="https://img.alicdn.com/imgextra/i3/O1CN01HfdjN31NVOsTfiYFy_!!6000000001575-1-tps-696-544.gif" target="_blank">
-<img src="https://img.alicdn.com/imgextra/i3/O1CN01HfdjN31NVOsTfiYFy_!!6000000001575-1-tps-696-544.gif" width="700" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">
+<img src="https://img.alicdn.com/imgextra/i3/O1CN01HfdjN31NVOsTfiYFy_!!6000000001575-1-tps-696-544.gif" width="500" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">
 </a>
 
 Now, [deploy an instance](https://www.alibabacloud.com/en/solutions/ai-application/real-time-interaction) and start your journey into the future!  
@@ -96,7 +96,7 @@ You focus on architectural design and core logic, while repetitive coding, confi
 
 
 <a href="https://img.alicdn.com/imgextra/i1/O1CN01W0cNh11F81jzWyiXz_!!6000000000441-1-tps-1726-990.gif" target="_blank">
-<img src="https://img.alicdn.com/imgextra/i1/O1CN01W0cNh11F81jzWyiXz_!!6000000000441-1-tps-1726-990.gif" width="700" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">
+<img src="https://img.alicdn.com/imgextra/i1/O1CN01W0cNh11F81jzWyiXz_!!6000000000441-1-tps-1726-990.gif" width="1000" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">
 </a>
 
 For detailed processes, refer to [Lingma Quick start for Individual Edition](https://www.alibabacloud.com/help/en/lingma/getting-started/individual-edition-quick-start). Let the AI Developer become your right-hand assistant now, [Download and experience immediately](https://www.alibabacloud.com/help/en/lingma/user-guide/download-the-installation-guide)!
@@ -162,8 +162,6 @@ While Precision Learning exemplifies the power of LLMs in education, its applica
   - Data privacy (such as GDPR in the EU, COPPA in the US)
   - Bias mitigation in content delivery
   - Compliance with global standards such as ISO/IEC 27001
-
-  <img src="https://aliyun-aps-cloud-public.oss-cn-hangzhou.aliyuncs.com/img_946b7422dd46687c5d0c5916e2bc92a5.png?x-oss-process=image/resize,h_400,m_lfit" width="700" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">
 
 ## 🎓 3. Continuous exploration
 
