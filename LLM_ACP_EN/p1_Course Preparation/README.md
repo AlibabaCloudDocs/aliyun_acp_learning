@@ -29,13 +29,13 @@ Please log in to the [Alibaba Cloud International Site](https://www.alibabacloud
    - **Resource Specifications**: Choose a suitable ECS specification based on your needs. Since there is no free trial, make sure your account has enough balance or a linked credit card.
      > For most course exercises, a CPU-based instance like `ecs.g6.xlarge` is sufficient. You can switch to GPU instances when necessary for specific chapters.
 
-     <img src="https://img.alicdn.com/imgextra/i3/O1CN01pZ8CwZ1PGrXEujG79_!!6000000001814-2-tps-3436-1716.png" width="800px">
+     <img src="https://img.alicdn.com/imgextra/i3/O1CN01pZ8CwZ1PGrXEujG79_!!6000000001814-2-tps-3436-1716.png" width="900px">
    - **Image**: Select a CPU-type image with Python 3.10 support. For example:
      ```
      modelscope:1.23.1-pytorch2.3.1-cpu-py310-ubuntu22.04
      ```
 
-     <img src="https://img.alicdn.com/imgextra/i1/O1CN01QAzZ721ZsYHlNLk9p_!!6000000003250-2-tps-2954-1716.png" width="800px">
+     <img src="https://img.alicdn.com/imgextra/i1/O1CN01QAzZ721ZsYHlNLk9p_!!6000000003250-2-tps-2954-1716.png" width="900px">
 
 3. Leave other settings as default and click **OK** to create the instance. The creation process typically takes up to 5 minutes.
 4. Once the instance status shows as **Running**, click **Open** in the **Actions** column to access the online Notebook interface provided by DSW.
@@ -146,7 +146,7 @@ Next, you can sequentially navigate to the **LLM_ACP_EN -> p2_Build LLM Q&A Syst
 <img src="https://img.alicdn.com/imgextra/i4/O1CN01M456CR1ooAkJrk8tV_!!6000000005271-2-tps-884-1478.png" width="320px">
 
 Once you've installed the course content, you'll need to **select the kernel** in the upper right corner of the Notebook (.ipynb file) and switch to the Python environment you just created (default kernel: Python 3 (ipykernel)), such as the `Python(llm_learn)`.<br>
-<img src="https://img.alicdn.com/imgextra/i1/O1CN01WXabpz1yRPDS3Br0q_!!6000000006575-2-tps-3808-1360.png" width="800px"><br>
+<img src="https://img.alicdn.com/imgextra/i1/O1CN01WXabpz1yRPDS3Br0q_!!6000000006575-2-tps-3808-1360.png" width="1000px"><br>
 <img src="https://img.alicdn.com/imgextra/i4/O1CN01qRgpMM1MsvbedxeAb_!!6000000001491-2-tps-838-572.png" width="320px"><br>
 <img src="https://img.alicdn.com/imgextra/i3/O1CN01cOQpCw1rN6AZmHtfN_!!6000000005618-2-tps-848-356.png" width="320px"><br>
 
