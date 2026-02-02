@@ -147,11 +147,11 @@ Learning with purpose improves efficiency. Before starting, learn about the LLM 
     <td style="padding:10px; border: 1px solid #ddd;">16%</td>
   </tr>
   <tr>
-    <td style="padding:10px; border: 1px solid #ddd;">Multi-Agent and Multimodal Applications</td>
+    <td style="padding:10px; border: 1px solid #ddd;">AI Agent Applications</td>
     <td style="padding:10px; border: 1px solid #ddd;">16%</td>
   </tr>
   <tr>
-    <td style="padding:10px; border: 1px solid #ddd;">Production Environment Application Practice</td>
+    <td style="padding:10px; border: 1px solid #ddd;">Production Practices and Security Compliance</td>
     <td style="padding:10px; border: 1px solid #ddd;">16%</td>
   </tr>
 
@@ -205,7 +205,7 @@ Learning with purpose improves efficiency. Before starting, learn about the LLM 
     <td style="padding:10px; border: 1px solid #ddd;">• Dataset construction, parameter settings, and model evaluation for fine-tuning</td>
   </tr>
   <tr>
-    <td rowspan="2" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">Multi-agent applications</td>
+    <td rowspan="2" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">AI Agent Applications</td>
     <td style="padding:10px; border: 1px solid #ddd;">Building agents with Model Studio Model API</td>
     <td style="padding:10px; border: 1px solid #ddd;">• How agents work<br>• Generating complex workflow and multi-agent applications</td>
     </tr>
@@ -215,7 +215,7 @@ Learning with purpose improves efficiency. Before starting, learn about the LLM 
     </td>
   </tr>
   <tr>
-    <td rowspan="2" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">Production application practices</td>
+    <td rowspan="2" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">Production Practices and Security Compliance</td>
     <td style="padding:10px; border: 1px solid #ddd;">Deploying fine-tuned models on Alibaba Cloud, including Elastic Compute Service (ECS), PAI, and Model Studio
 </td>
     <td style="padding:10px; border: 1px solid #ddd;">• LLM deployment with vLLM<br>• Publishing AI assistants with Function Compute (FC)</td>
