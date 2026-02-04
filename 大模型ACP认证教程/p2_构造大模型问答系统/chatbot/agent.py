@@ -12,7 +12,7 @@ from agentscope.model import DashScopeChatModel
 def create_agent(
     name: str,
     sys_prompt: str,
-    model_name: str = "qwen-plus-latest",
+    model_name: str = "qwen-plus",
     multi_agent: bool = True,
 ) -> ReActAgent:
     """Create a ReActAgent with a DashScope chat model.

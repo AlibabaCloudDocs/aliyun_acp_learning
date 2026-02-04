@@ -62,9 +62,9 @@ def create_query_engine(index):
     query_engine = index.as_query_engine(
       # 设置为流式输出
       streaming=True,
-      # 此处使用qwen-plus-0919模型，你也可以使用阿里云提供的其它qwen的文本生成模型：https://help.aliyun.com/zh/model-studio/getting-started/models#9f8890ce29g5u
+      # 此处使用qwen-plus模型，你也可以使用阿里云提供的其它qwen的文本生成模型：https://help.aliyun.com/zh/model-studio/getting-started/models#9f8890ce29g5u
       llm=OpenAILike(
-          model="qwen-plus-0919",
+          model="qwen-plus",
           api_base="https://dashscope.aliyuncs.com/compatible-mode/v1",
           api_key=os.getenv("DASHSCOPE_API_KEY"),
           is_chat_model=True
