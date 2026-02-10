@@ -92,7 +92,7 @@
 
 
 ### 1.5 与AI程序员结伴编程，秒变全栈开发
-你可能想在你的电商系统中快速添加一项新功能，但却苦于人手不足？通义灵码AI程序员就是你24小时随叫随到的编程伙伴！它能：
+你可能想在你的电商系统中快速添加一项新功能，但却苦于人手不足？灵码AI程序员就是你24小时随叫随到的编程伙伴！它能：
 - **一键生成全流程**
 从需求实现到单元测试，从代码修复到批量修改，复杂代码编写"一键生成”，AI全程智能协作
 - **全栈需求零压力**
@@ -105,10 +105,10 @@
 <img src="https://img.alicdn.com/imgextra/i2/O1CN01l2Losi1ljdwOoa054_!!6000000004855-1-tps-600-336.gif" width="700" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">
 </a>
 
-详细流程请参考[通义灵码AI程序员与开发者结伴编程](https://developer.aliyun.com/article/1658034)，现在就让 AI 程序员成为你的左膀右臂，[立即下载体验](https://help.aliyun.com/zh/lingma/user-guide/download-the-installation-guide)！
+详细流程请参考[灵码AI程序员与开发者结伴编程](https://developer.aliyun.com/article/1658034)，现在就让 AI 程序员成为你的左膀右臂，[立即下载体验](https://help.aliyun.com/zh/lingma/user-guide/download-the-installation-guide)！
 
 
-> 如果你想实现提交代码后自动触发流水线，自动执行代码检测和单元测试，从开发到代码CI/CD全流程管理，阿里云还提供了[企业级智能编码解决方案](https://www.aliyun.com/solution/tech-solution/intelligent-coding?spm=5176.29677750.J_7uZrZlgl1hzBH9MLq1qLS.d_5_action_0.5f02154aSfWf1n)，通过将通义灵码与云效相结合，进一步提高你对项目的管理能力，确保软件按时高质量交付。
+> 如果你想实现提交代码后自动触发流水线，自动执行代码检测和单元测试，从开发到代码CI/CD全流程管理，阿里云还提供了[企业级智能编码解决方案](https://www.aliyun.com/solution/tech-solution/intelligent-coding?spm=5176.29677750.J_7uZrZlgl1hzBH9MLq1qLS.d_5_action_0.5f02154aSfWf1n)，通过将灵码与云效相结合，进一步提高你对项目的管理能力，确保软件按时高质量交付。
 
 
 ## 🌏 2. AI正在影响着千行百业
@@ -135,7 +135,7 @@ AI与大模型已经在很多领域有了成功落地，以下案例涵盖了医
 
 
 ### 2.3 教育行业：个性化学习与智能辅导
-在教育领域，大模型同样展现出了巨大的潜力。[精准学](https://www.91jzx.cn/)基于阿里巴巴的通义大模型，开发了一款智能辅导系统[超拟人AI一对一老师](https://news.qq.com/rain/a/20240921A03V7N00)，为学生提供个性化的学习方案。该系统能够根据学生的学习进度和薄弱环节，自动调整教学内容和难度，确保每位学生都能获得最适合自己的教育资源。此外，精准学与钉钉、通义千问合作推出的超拟人一对一AI老师普惠计划，将为偏远地区及弱势群体提供AI辅学资源，进一步推动教育的普惠化。
+在教育领域，大模型同样展现出了巨大的潜力。[精准学](https://www.91jzx.cn/)基于阿里巴巴的千问大模型，开发了一款智能辅导系统[超拟人AI一对一老师](https://news.qq.com/rain/a/20240921A03V7N00)，为学生提供个性化的学习方案。该系统能够根据学生的学习进度和薄弱环节，自动调整教学内容和难度，确保每位学生都能获得最适合自己的教育资源。此外，精准学与钉钉、千问合作推出的超拟人一对一AI老师普惠计划，将为偏远地区及弱势群体提供AI辅学资源，进一步推动教育的普惠化。
 
 <img src="https://img.alicdn.com/imgextra/i4/O1CN01Aio9W11Dzx6feTbqT_!!6000000000288-2-tps-3438-1842.png" width="700" style="box-shadow: rgba(99, 99, 99, 0.21) 0px 1px 8px 0px;">
 
