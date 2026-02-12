@@ -42,8 +42,5 @@ agentscope==1.0.6
 mem0ai==0.1.118
 ipywidgets==8.1.7
 pymupdf4llm==0.2.6
-
-# --- 注意：以下包已从列表中移除 ---
-# llama-index-postprocessor-dashscope-rerank-custom==0.1.0 (已废弃)
 alibabacloud_bailian20231229==1.8.2
 simplejson==3.19.3
