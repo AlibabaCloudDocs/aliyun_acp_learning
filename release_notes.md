@@ -35,7 +35,7 @@ Coding Agent 正在改变开发者的日常工作方式。本次更新新增 **3
 
 | Skill 的结构设计 | 从编写到验证的完整方法 | 评测驱动的迭代闭环 |
 | --- | --- | --- |
-| <img src="https://img.alicdn.com/imgextra/i1/O1CN01qdJs3w1hA8rlLrQdv_!!6000000004236-2-tps-2752-1536.png" width="600"> | <img src="https://img.alicdn.com/imgextra/i2/O1CN01Jy9qKf1w6Di9g7N28_!!6000000006258-2-tps-2752-1536.png" width="600"> | <img src="https://img.alicdn.com/imgextra/i2/O1CN01jhsQnG27qtqsHmsbS_!!6000000007849-2-tps-2752-1536.png" width="600"> |
+| <img src="https://img.alicdn.com/imgextra/i1/O1CN01De1xaN1Xf9X6Rj3Aw_!!6000000002950-2-tps-1651-922.png" width="600"> | <img src="https://img.alicdn.com/imgextra/i2/O1CN01Jy9qKf1w6Di9g7N28_!!6000000006258-2-tps-2752-1536.png" width="600"> | <img src="https://img.alicdn.com/imgextra/i2/O1CN01nABnq91L8Nnz51mTt_!!6000000001254-2-tps-1651-922.png" width="600"> |
 
 <hr style="border: 2px solid black;">
 
