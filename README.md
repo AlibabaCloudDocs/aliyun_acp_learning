@@ -140,7 +140,7 @@
   <tr>
     <td rowspan="2" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">C5 总结与展望</td>
     <td style="padding:10px; border: 1px solid #ddd;">5.1</td>
-    <td style="padding:10px; border: 1px solid #ddd;">培养品味让 AI 应用产生价值</td>
+    <td style="padding:10px; border: 1px solid #ddd;">培养品味用 AI 为业务提效</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">5.2</td>
