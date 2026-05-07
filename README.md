@@ -42,30 +42,24 @@
 
 ## 📙 课程列表
 
-在阿里云大模型ACP认证中，课程整体将会以项目式的结构呈现。以项目式的结构设计课程可以帮助学员掌握课程所需的核心概念和技能，并且应用这些知识和技能解决实际问题。
-在阿里云大模型ACP认证课程中，你将作为一位教育内容开发公司的员工，构建一个基于大模型的答疑机器人，从而解决新员工入职频繁答疑的问题；随后在公司需要教育课程时，你会利用大模型生成多种形式的教学内容，帮助公司完成业务目标。
-通过这两个项目的练习，希望你可以思考如何将大模型的能力带入到不同的行业中，最终可以面向不同的业务场景设计并实施大模型驱动的解决方案。
-
+本课程围绕一个完整项目——**新人答疑机器人**，从一行 API 调用出发，逐步构建出生产级 AI 系统。你会经历"能跑通→能回答→能用工具→能自我修复"的完整演进。
 
 <table>
 <thead>
  <tr>
-    <td style="background-color:#f2f2f2; font-weight:bold; padding:10px; border: 1px solid #ddd;">章序号</td>
-    <td style="background-color:#f2f2f2; font-weight:bold; padding:10px; border: 1px solid #ddd;">章节名称</td>
-    <td style="background-color:#f2f2f2; font-weight:bold; padding:10px; border: 1px solid #ddd;">课程序号</td>
-    <td style="background-color:#f2f2f2; font-weight:bold; padding:10px; border: 1px solid #ddd;">课程链接</td>
+    <td style="background-color:#f2f2f2; font-weight:bold; padding:10px; border: 1px solid #ddd;">章节</td>
+    <td style="background-color:#f2f2f2; font-weight:bold; padding:10px; border: 1px solid #ddd;">课时</td>
+    <td style="background-color:#f2f2f2; font-weight:bold; padding:10px; border: 1px solid #ddd;">标题</td>
  </tr>
  </thead>
  <tbody>
   <tr>
-    <td rowspan="1" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">1</td>
-    <td style="padding:10px; border: 1px solid #ddd;">Before start：环境准备</td>
-    <td style="padding:10px; border: 1px solid #ddd;">1.0</td>
-    <td style="padding:10px; border: 1px solid #ddd;">计算环境准备</td>
+    <td rowspan="1" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">C1 课程准备</td>
+    <td style="padding:10px; border: 1px solid #ddd;">1.1</td>
+    <td style="padding:10px; border: 1px solid #ddd;">配置 AI 开发环境</td>
   </tr>
   <tr>
-    <td rowspan="11" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">2</td>
-    <td rowspan="11" style="padding:10px; border: 1px solid #ddd;">借助大模型构建答疑机器人</td>
+    <td rowspan="6" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">C2 构造问答系统</td>
     <td style="padding:10px; border: 1px solid #ddd;">2.0</td>
     <td style="padding:10px; border: 1px solid #ddd;">项目背景</td>
   </tr>
@@ -79,7 +73,7 @@
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">2.3</td>
-    <td style="padding:10px; border: 1px solid #ddd;">优化提示词改善答疑机器人回答质量</td>
+    <td style="padding:10px; border: 1px solid #ddd;">优化提示词改善回答质量</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">2.4</td>
@@ -87,32 +81,69 @@
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">2.5</td>
-    <td style="padding:10px; border: 1px solid #ddd;">优化RAG应用提升问答准确度</td>
+    <td style="padding:10px; border: 1px solid #ddd;">优化 RAG 应用提升问答准确度</td>
   </tr>
   <tr>
-    <td style="padding:10px; border: 1px solid #ddd;">2.6</td>
-    <td style="padding:10px; border: 1px solid #ddd;">构建Agent完成复杂任务</td>
+    <td rowspan="8" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">C3 构建 Agent 系统</td>
+    <td style="padding:10px; border: 1px solid #ddd;">3.0</td>
+    <td style="padding:10px; border: 1px solid #ddd;">从回答问题到解决问题</td>
   </tr>
   <tr>
-    <td style="padding:10px; border: 1px solid #ddd;">2.7</td>
+    <td style="padding:10px; border: 1px solid #ddd;">3.1</td>
+    <td style="padding:10px; border: 1px solid #ddd;">Agent 基础与工具调用</td>
+  </tr>
+  <tr>
+    <td style="padding:10px; border: 1px solid #ddd;">3.2</td>
+    <td style="padding:10px; border: 1px solid #ddd;">让 Agent 学会规划与执行</td>
+  </tr>
+  <tr>
+    <td style="padding:10px; border: 1px solid #ddd;">3.3</td>
+    <td style="padding:10px; border: 1px solid #ddd;">用多 Agent 实现团队协作</td>
+  </tr>
+  <tr>
+    <td style="padding:10px; border: 1px solid #ddd;">3.4</td>
+    <td style="padding:10px; border: 1px solid #ddd;">用 Memory 让 Agent 积累经验</td>
+  </tr>
+  <tr>
+    <td style="padding:10px; border: 1px solid #ddd;">3.5</td>
+    <td style="padding:10px; border: 1px solid #ddd;">用 Skill 将能力固化为可复用流程</td>
+  </tr>
+  <tr>
+    <td style="padding:10px; border: 1px solid #ddd;">3.6</td>
+    <td style="padding:10px; border: 1px solid #ddd;">用评测驱动 Agent 开发</td>
+  </tr>
+  <tr>
+    <td style="padding:10px; border: 1px solid #ddd;">3.7</td>
+    <td style="padding:10px; border: 1px solid #ddd;">Qwen Code 实践</td>
+  </tr>
+  <tr>
+    <td rowspan="5" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">C4 交付上线</td>
+    <td style="padding:10px; border: 1px solid #ddd;">4.0</td>
+    <td style="padding:10px; border: 1px solid #ddd;">走向生产环境</td>
+  </tr>
+  <tr>
+    <td style="padding:10px; border: 1px solid #ddd;">4.1</td>
     <td style="padding:10px; border: 1px solid #ddd;">通过微调提升模型的准确度与效率</td>
   </tr>
   <tr>
-    <td style="padding:10px; border: 1px solid #ddd;">2.8</td>
+    <td style="padding:10px; border: 1px solid #ddd;">4.2</td>
     <td style="padding:10px; border: 1px solid #ddd;">部署模型</td>
   </tr>
   <tr>
-    <td style="padding:10px; border: 1px solid #ddd;">2.9</td>
+    <td style="padding:10px; border: 1px solid #ddd;">4.3</td>
     <td style="padding:10px; border: 1px solid #ddd;">大模型应用生产实践</td>
   </tr>
   <tr>
-    <td style="padding:10px; border: 1px solid #ddd;">2.A</td>
+    <td style="padding:10px; border: 1px solid #ddd;">4.4</td>
     <td style="padding:10px; border: 1px solid #ddd;">大模型应用安全合规</td>
   </tr>
-    <tr>
-    <td rowspan="6" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">3</td>
-    <td rowspan="6" style="padding:10px; border: 1px solid #ddd;">总结与展望</td>
-    <td style="padding:10px; border: 1px solid #ddd;">3.0</td>
+  <tr>
+    <td rowspan="2" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">C5 总结与展望</td>
+    <td style="padding:10px; border: 1px solid #ddd;">5.1</td>
+    <td style="padding:10px; border: 1px solid #ddd;">培养品味让 AI 应用产生价值</td>
+  </tr>
+  <tr>
+    <td style="padding:10px; border: 1px solid #ddd;">5.2</td>
     <td style="padding:10px; border: 1px solid #ddd;">总结与展望</td>
   </tr>
   </tbody>
