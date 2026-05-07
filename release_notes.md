@@ -1,5 +1,31 @@
 # Release Notes
 
+## V2.4.2 模型微调改为模型蒸馏并新增可观测性内容
+> 变更时间：2026.04.30
+
+调整课程主体结构，将大模型微调升级为大模型蒸馏，并在大模型应用生产实践中引入可观测性内容
+
+**新增/优化内容**
+
+| 模型蒸馏 | 可观测性 |
+| --- | --- |
+| 用Qwen Code辅助实现模型蒸馏 <img src="https://img.alicdn.com/imgextra/i3/O1CN01juLUux1YNZx27JTum_!!6000000003047-2-tps-1608-916.png" width="600">| 观测AI应用使用情况 <img src="https://img.alicdn.com/imgextra/i1/O1CN01VFGLsU1bUr5b9Jl3C_!!6000000003469-2-tps-2850-1692.png" width="600"> |
+
+<hr style="border: 2px solid black;">
+
+## V2.4.0 新增 Qwen Code 实践课程
+> 变更时间：2026.04.10
+
+Coding Agent 正在改变开发者的日常工作方式。本次更新新增 **3.7 Qwen Code 实践** 章节，引导学员安装并使用通义千问团队开源的终端 AI 智能体 Qwen Code，体验 Agent 如何自主规划、调用工具、完成编程任务。同时在 3.1 课程开头增加 Qwen Code 体验环节，让学员在拆解 Agent 技术原理之前，先直观感受 Agent 的"思考-行动-观察"工作模式。
+
+**新增/优化内容**
+
+| 体验 Coding Agent 的工作模式 | Qwen Code 核心功能实践 |
+| --- | --- |
+| 在 3.1 开头通过安装 Qwen Code 并执行 Research 任务，直观观察 Agent 的 ReAct 循环，再深入技术原理 <img src="https://img.alicdn.com/imgextra/i2/O1CN011b19G41wJ2nomCOiL_!!6000000006286-2-tps-3493-1413.png" width="600">| 新增 3.7 完整章节，涵盖代码理解、工具编排、自主规划等 Coding Agent 日常工作方式 <img src="https://img.alicdn.com/imgextra/i3/O1CN01EltLWj1FiD5UPA2Qx_!!6000000000520-2-tps-1354-554.png" width="600"> |
+
+<hr style="border: 2px solid black;">
+
 ## V2.3.0 新增 Agent Skills 章节
 > 变更时间：2026.03.27
 
