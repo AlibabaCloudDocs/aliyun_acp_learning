@@ -1,4 +1,4 @@
-# 阿里云大模型ACP认证教程
+# 阿里云大模型 ACP 认证教程
 
 本课程围绕一个完整项目——**新人答疑机器人**，从一行 API 调用出发，逐步构建出生产级 AI 系统。你会经历"能跑通→能回答→能用工具→能自我修复"的完整演进，最终理解 **Harness Engineering**：模型之外的一切才决定系统上限。
 
@@ -35,6 +35,9 @@
 | 3.5 | 用 Skill 将能力固化为可复用流程 | 从 Prompt 到 Skill 的演进 |
 | 3.6 | 用评测驱动 Agent 开发 | 确定性检查 + LLM-as-Judge + Rubric 评分 |
 | 3.7 | Qwen Code 实践 | 掌握Coding Agent的日常工作方式 |
+| 3.8 | 用自动评测闭环让 Agent 自我修复 | 验证脚本 + Hook + Ralph Loop 自动迭代 |
+
+> 3.8 配套实验：`C3_构建Agent系统/课程实验/order-management/`
 
 ### C4 交付上线
 
@@ -50,23 +53,37 @@
 
 | 课时 | 标题 | 你要做什么 |
 |------|------|-----------|
-| 5.1 | 培养品味让 AI 应用产生价值 | RIDE 方法论：选方向、定标准、验效果 |
+| 5.1 | 培养品味用 AI 为业务提效 | RIDE 方法论：选方向、定标准、验效果 |
 | 5.2 | 总结与展望 | 演进逻辑回顾 + 核心方法论 + 考前指导 |
-
 ---
 
-## 共享资源
+## 共享模块
 
 课程代码复用以下共享模块，Notebook 中直接 import 使用：
 
-| 目录 | 用途 |
-|------|------|
-| `chatbot/` | 答疑机器人核心模块（LLM、RAG、Agent、评测） |
-| `config/` | API密钥加载 |
-| `docs/` | 测试文档 |
-| `knowledge_base/` | 知识库文件 |
-| `ragas_prompt/` | RAGAS评测提示词 |
-| `resources/` | 课程资源文件 |
-| `utils/` | 工具函数 |
+| 目录 | 用途 | 使用方式 |
+|------|------|---------|
+| `chatbot/` | 核心模块：LLM 调用、RAG、Agent、评测 | `from chatbot.llm import client, get_response` |
+| `config/` | API Key 加载 | `from config.load_key import load_key; load_key()` |
+| `docs/` | 测试文档 | RAG 实验用 |
+| `knowledge_base/` | 知识库文件 | 向量检索数据源 |
+| `ragas_prompt/` | RAGAS 评测提示词（中/英） | 评测流水线用 |
+| `resources/` | 课程资源（图片等） | Notebook 引用 |
+| `utils/` | 工具函数（安全模块等） | 按需导入 |
 
 ---
+
+## 快速开始
+
+```bash
+# 1. 安装依赖
+pip install -r requirements.txt
+
+# 2. 配置 API Key
+# 在 config/Key.json 中填入百炼平台 API Key
+
+# 3. 验证环境
+python -c "from config.load_key import load_key; load_key(); print('✅ 环境就绪')"
+```
+
+**环境要求**：Python 3.9+ / 阿里云百炼平台 API Key / 依赖见 `requirements.txt`
