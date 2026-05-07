@@ -123,7 +123,7 @@
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">4.1</td>
-    <td style="padding:10px; border: 1px solid #ddd;">通过微调提升模型的准确度与效率</td>
+    <td style="padding:10px; border: 1px solid #ddd;">用蒸馏让小模型掌握专业能力</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">4.2</td>
