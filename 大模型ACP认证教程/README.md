@@ -69,18 +69,3 @@
 | `utils/` | 工具函数（安全模块等） | 按需导入 |
 
 ---
-
-## 快速开始
-
-```bash
-# 1. 安装依赖
-pip install -r requirements.txt
-
-# 2. 配置 API Key
-# 在 config/Key.json 中填入百炼平台 API Key
-
-# 3. 验证环境
-python -c "from config.load_key import load_key; load_key(); print('✅ 环境就绪')"
-```
-
-**环境要求**：Python 3.9+ / 阿里云百炼平台 API Key / 依赖见 `requirements.txt`
