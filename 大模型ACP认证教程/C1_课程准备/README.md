@@ -205,7 +205,7 @@ deactivate
 
 如果你不习惯深色主题，也可以在顶部的 Settings 菜单中调整：
 
-<img src="https://img.alicdn.com/imgextra/i4/O1CN01E7kH2F1fBqzPMkkoZ_!!6000000003969-2-tps-961-279.png" alt="设置" width="600px">
+<img src="https://img.alicdn.com/imgextra/i3/O1CN016P9Mrh27rMG0XUuZN_!!6000000007850-2-tps-1342-716.png" alt="设置" width="600px">
 
 ### DSW 的常见问题
 
@@ -217,7 +217,7 @@ A1: 在 2.1 教程中，你会输入 API Key，如果你使用 Notebook，那么
 
 如果你使用 WebIDE，那么输入框会出现在代码文件的正上方。
 
-<img src="https://img.alicdn.com/imgextra/i2/O1CN01horPgp1foKH3nnLW8_!!6000000004053-0-tps-1660-604.jpg" width="500px" alt="切换kernel">
+<img src="https://img.alicdn.com/imgextra/i4/O1CN016iD5sy1mMZhotjZ2g_!!6000000004940-2-tps-1502-540.png" width="500px" alt="切换kernel">
 
 Q2: 在 Notebook 中能够直接看到图片，可是为什么双击图片所在的 Markdown 块后，图片就显示不出来了？
 
