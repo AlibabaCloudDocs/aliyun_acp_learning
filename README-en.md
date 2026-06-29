@@ -10,7 +10,7 @@ This guide prepares you for the **Alibaba Cloud Certified LLM Engineer - Profess
 
 Before you begin, review the **Alibaba Cloud Certified LLM Engineer - Professional** certification path. This helps you select the correct course for your skill level.
 
-<img src="https://gw.alicdn.com/imgextra/i1/O1CN01MC00f61wMhpgctA1q_!!6000000006294-0-tps-1445-478.jpg" alt="My notebook" width="800px">
+<img src="https://img.alicdn.com/imgextra/i3/O1CN01UzUyqN1b9mqcDfM49_!!6000000003423-2-tps-2464-836.png" alt="My notebook" width="800px">
 
 > If you lack programming fundamentals or want to start learning about LLMs from scratch, please go to:point_right:[Alibaba Cloud LLM ACA Engineer Certification Course](https://edu.aliyun.com/course/3126500)
 
@@ -90,7 +90,7 @@ This course is project-based. You will act as an employee at an educational cont
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">2.6</td>
-    <td style="padding:10px; border: 1px solid #ddd;">Extend FAQ Bot Capabilities with Plugins</td>
+    <td style="padding:10px; border: 1px solid #ddd;">Building an Agent to Accomplish Complex Tasks</td>
   </tr>
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">2.7</td>
@@ -139,7 +139,7 @@ Learning with purpose improves efficiency. Before starting, learn about the LLM 
     <td style="padding:10px; border: 1px solid #ddd;">15%</td>
   </tr>
   <tr>
-    <td style="padding:10px; border: 1px solid #ddd;">LLM Retrieval Augmentation</td>
+    <td style="padding:10px; border: 1px solid #ddd;">LLM Retrieval-Augmented Generation</td>
     <td style="padding:10px; border: 1px solid #ddd;">20%</td>
   </tr>
   <tr>
@@ -147,11 +147,11 @@ Learning with purpose improves efficiency. Before starting, learn about the LLM 
     <td style="padding:10px; border: 1px solid #ddd;">16%</td>
   </tr>
   <tr>
-    <td style="padding:10px; border: 1px solid #ddd;">Multi-Agent and Multimodal Applications</td>
+    <td style="padding:10px; border: 1px solid #ddd;">AI Agent Applications</td>
     <td style="padding:10px; border: 1px solid #ddd;">16%</td>
   </tr>
   <tr>
-    <td style="padding:10px; border: 1px solid #ddd;">Production Environment Application Practice</td>
+    <td style="padding:10px; border: 1px solid #ddd;">Production Practices and Security Compliance</td>
     <td style="padding:10px; border: 1px solid #ddd;">16%</td>
   </tr>
 
@@ -205,9 +205,9 @@ Learning with purpose improves efficiency. Before starting, learn about the LLM 
     <td style="padding:10px; border: 1px solid #ddd;">• Dataset construction, parameter settings, and model evaluation for fine-tuning</td>
   </tr>
   <tr>
-    <td rowspan="2" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">Multi-agent and multimodal applications</td>
-    <td style="padding:10px; border: 1px solid #ddd;">Building agents with Model Studio Assistant API</td>
-    <td style="padding:10px; border: 1px solid #ddd;">• How agents work<br>• Generating multimodal content and creating personalized voice assistants</td>
+    <td rowspan="2" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">AI Agent Applications</td>
+    <td style="padding:10px; border: 1px solid #ddd;">Building agents with Model Studio Model API</td>
+    <td style="padding:10px; border: 1px solid #ddd;">• How agents work<br>• Generating complex workflow and multi-agent applications</td>
     </tr>
     <tr>
     <td style="padding:10px; border: 1px solid #ddd;">Building complex AI applications</td>
@@ -215,7 +215,7 @@ Learning with purpose improves efficiency. Before starting, learn about the LLM 
     </td>
   </tr>
   <tr>
-    <td rowspan="2" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">Production application practices</td>
+    <td rowspan="2" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">Production Practices and Security Compliance</td>
     <td style="padding:10px; border: 1px solid #ddd;">Deploying fine-tuned models on Alibaba Cloud, including Elastic Compute Service (ECS), PAI, and Model Studio
 </td>
     <td style="padding:10px; border: 1px solid #ddd;">• LLM deployment with vLLM<br>• Publishing AI assistants with Function Compute (FC)</td>

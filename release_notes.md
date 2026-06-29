@@ -1,5 +1,105 @@
 # Release Notes
 
+## V2.4.2 模型微调改为模型蒸馏并新增可观测性内容
+> 变更时间：2026.04.30
+
+随着大模型能力的快速提升，传统微调的必要性在下降，而通过蒸馏让小模型掌握大模型的专业能力正在成为更主流的生产实践。本次更新将原课程《通过微调提升模型的准确度与效率》升级为《用蒸馏让小模型掌握专业能力》，从讲解“调参数”转向“迁移能力”，更贴合当前的工程现实。同时在《大模型应用生产实践》中新增可观测性内容，覆盖Trace、日志、指标监控等生产环境必备的运维能力，帮助学员从“能跑通”走向“跑得稳”。
+
+**新增/优化内容**
+
+| 模型蒸馏 | 可观测性 |
+| --- | --- |
+| 用Qwen Code辅助实现模型蒸馏 <img src="https://img.alicdn.com/imgextra/i3/O1CN01juLUux1YNZx27JTum_!!6000000003047-2-tps-1608-916.png" width="600">| 观测AI应用使用情况 <img src="https://img.alicdn.com/imgextra/i1/O1CN01VFGLsU1bUr5b9Jl3C_!!6000000003469-2-tps-2850-1692.png" width="600"> |
+
+<hr style="border: 2px solid black;">
+
+## V2.4.0 新增 Qwen Code 实践课程
+> 变更时间：2026.04.10
+
+Coding Agent 正在改变开发者的日常工作方式。本次更新新增 **3.7 Qwen Code 实践** 章节，引导学员安装并使用通义千问团队开源的终端 AI 智能体 Qwen Code，体验 Agent 如何自主规划、调用工具、完成编程任务。同时在 3.1 课程开头增加 Qwen Code 体验环节，让学员在拆解 Agent 技术原理之前，先直观感受 Agent 的"思考-行动-观察"工作模式。
+
+**新增/优化内容**
+
+| 体验 Coding Agent 的工作模式 | Qwen Code 核心功能实践 |
+| --- | --- |
+| 在 3.1 开头通过安装 Qwen Code 并执行 Research 任务，直观观察 Agent 的 ReAct 循环，再深入技术原理 <img src="https://img.alicdn.com/imgextra/i2/O1CN011b19G41wJ2nomCOiL_!!6000000006286-2-tps-3493-1413.png" width="600">| 新增 3.7 完整章节，涵盖代码理解、工具编排、自主规划等 Coding Agent 日常工作方式 <img src="https://img.alicdn.com/imgextra/i3/O1CN01EltLWj1FiD5UPA2Qx_!!6000000000520-2-tps-1354-554.png" width="600"> |
+
+<hr style="border: 2px solid black;">
+
+## V2.3.0 新增 Agent Skills 章节
+> 变更时间：2026.03.27
+
+当 Agent 需要完成复杂的专业任务时，仅靠工具调用往往不够——每次都要在提示词中重复描述流程、规则和注意事项。本次更新引入 **Skill** 机制，帮助学员将反复使用的专家经验提炼为可复用的结构化指令，让 Agent 像掌握一项"技能"一样自主完成专业任务，而不仅仅是调用工具。
+
+**新增/优化内容示例**
+
+| Skill 的结构设计 | 从编写到验证的完整方法 | 评测驱动的迭代闭环 |
+| --- | --- | --- |
+| <img src="https://img.alicdn.com/imgextra/i1/O1CN01De1xaN1Xf9X6Rj3Aw_!!6000000002950-2-tps-1651-922.png" width="600"> | <img src="https://img.alicdn.com/imgextra/i2/O1CN01Jy9qKf1w6Di9g7N28_!!6000000006258-2-tps-2752-1536.png" width="600"> | <img src="https://img.alicdn.com/imgextra/i2/O1CN01nABnq91L8Nnz51mTt_!!6000000001254-2-tps-1651-922.png" width="600"> |
+
+<hr style="border: 2px solid black;">
+
+## V2.2.0 重构 Agent 章节
+> 变更时间：2025.11.14
+
+本次重构是对 Agent 章节的全面升级，旨在帮助学员系统性地理解并掌握构建生产级 Agent 系统的完整知识体系。课程涵盖工具使用、反思机制、工作流编排、自主规划、多智能体协作、记忆系统和评测驱动开发七项核心主题，并引入 AgentScope 生产级框架进行实践。
+
+**优化/新增内容示例**
+
+<table class="workflow-table">
+    <thead>
+        <tr>
+            <th class="col-workflow">任务分解与工作流</th>
+            <th class="col-planning">自主规划与协作</th>
+            <th class="col-testing">评测驱动开发</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="col-workflow">
+                <strong>五种工作流模式：</strong>
+                从流水线到混合专家(Mixture-of-Agents, MoA)，系统讲解如何将复杂任务拆解为可管理的工作流
+                <br>
+                <img src="https://img.alicdn.com/imgextra/i1/O1CN01EXhfK11e9jdlOug9P_!!6000000003829-55-tps-2634-832.svg" style="width: 100%;">
+            </td>
+            <td class="col-planning">
+                <strong>从固定流程到自主规划：</strong>
+                让Agent根据目标动态生成解决方案，突破预设流程限制
+                <br>
+                <img src="https://img.alicdn.com/imgextra/i4/O1CN011sQMUF1wYcEwgFLP2_!!6000000006320-55-tps-2466-338.svg" style="width: 100%;">
+            </td>
+            <td class="col-testing">
+                <strong>端到端与白盒化评测：</strong>
+                建立系统化评测体系，用数据驱动Agent优化
+                <br>
+                <img src="https://img.alicdn.com/imgextra/i1/O1CN01GStBBr1atkyWvwMfG_!!6000000003388-55-tps-2492-750.svg" style="width: 100%;">
+            </td>
+        </tr>
+        <tr>
+            <td class="col-workflow">
+                <strong>人机协作(HITL)：</strong>
+                将人类决策融入工作流关键节点，构建可信AI系统
+                <br>
+                <img src="https://img.alicdn.com/imgextra/i4/O1CN01NZl8hd1ccveddhurU_!!6000000003622-55-tps-1702-410.svg" style="width: 100%;">
+            </td>
+            <td class="col-planning">
+                <strong>多智能体协作：</strong>
+                分层规划与共创协作两种模式，模拟现实团队工作方式
+                <br>
+                <img src="https://img.alicdn.com/imgextra/i2/O1CN01AV1vcB1haFPmNB5lg_!!6000000004293-55-tps-1923-536.svg" style="width: 100%;">
+            </td>
+            <td class="col-testing">
+                <strong>AgentScope评测框架：</strong>
+                使用生产级框架实现完整评测闭环
+                <br>
+                <img src="https://img.alicdn.com/imgextra/i4/O1CN01LGHa2C1g5jPSQgRUV_!!6000000004091-55-tps-1922-500.svg" style="width: 100%;">
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<hr style="border: 2px solid black;">
+
 ## V2.1.0 引入 Meta Prompting
 > 变更时间：2025.07.28
 
@@ -101,7 +201,7 @@
 ## V2.0.2 增加 Reasoning Model 的使用技巧
 > 变更时间：2025.03.25
 
-为了帮助学员更有效地使用推理模型（如Deepseek-R1、通义千问-QwQ）来提升答疑机器人的回答质量，我们增加了关于如何撰写高质量提示词的指导。核心在于清晰地表达核心需求，并提供详尽且有用的背景信息。此外，我们还介绍了在复杂任务场景下，如何结合推理模型与通用模型各自的优势更好更快地完成任务。
+为了帮助学员更有效地使用推理模型（如Deepseek-R1、千问-QwQ）来提升答疑机器人的回答质量，我们增加了关于如何撰写高质量提示词的指导。核心在于清晰地表达核心需求，并提供详尽且有用的背景信息。此外，我们还介绍了在复杂任务场景下，如何结合推理模型与通用模型各自的优势更好更快地完成任务。
 
 **优化/新增内容示例**
 
