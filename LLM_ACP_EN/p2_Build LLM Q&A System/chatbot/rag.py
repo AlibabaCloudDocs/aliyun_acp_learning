@@ -1,7 +1,9 @@
 # Import dependencies
 from llama_index.core import SimpleDirectoryReader, VectorStoreIndex, StorageContext, load_index_from_storage
-from llama_index.embeddings.dashscope import DashScopeEmbedding, DashScopeTextEmbeddingModels
+from llama_index.embeddings.dashscope import DashScopeTextEmbeddingModels
 from llama_index.llms.dashscope import DashScope
+
+from llama_index.embeddings.openai_like import OpenAILikeEmbedding
 # These two lines of code are used to suppress WARNING messages to avoid interference with reading and learning. In production environments, it is recommended to set the log level as needed.
 import logging
 logging.basicConfig(level=logging.ERROR)
@@ -30,9 +32,11 @@ def create_index(document_path="./docs"):
     index = VectorStoreIndex.from_documents(
         documents,
         # Specify the embedding model
-        embed_model=DashScopeEmbedding(
+        embed_model=OpenAILikeEmbedding(
+            api_base=os.getenv("DASHSCOPE_API_BASE"),
+            api_key=os.getenv("DASHSCOPE_API_KEY"),
             # You can also use other embedding models provided by Alibaba Cloud: https://help.aliyun.com/zh/model-studio/getting-started/models#3383780daf8hw
-            model_name=DashScopeTextEmbeddingModels.TEXT_EMBEDDING_V2
+            model_name=DashScopeTextEmbeddingModels.TEXT_EMBEDDING_V3
         )
     )
     return index
@@ -46,8 +50,10 @@ def load_index(persist_path="knowledge_base/test"):
       VectorStoreIndex: Index object
     """
     storage_context = StorageContext.from_defaults(persist_dir=persist_path)
-    return load_index_from_storage(storage_context, embed_model=DashScopeEmbedding(
-      model_name=DashScopeTextEmbeddingModels.TEXT_EMBEDDING_V2
+    return load_index_from_storage(storage_context, embed_model=OpenAILikeEmbedding(
+        api_base=os.getenv("DASHSCOPE_API_BASE"),
+        api_key=os.getenv("DASHSCOPE_API_KEY"),
+        model_name=DashScopeTextEmbeddingModels.TEXT_EMBEDDING_V3
     ))
 
 def create_query_engine(index):
@@ -64,8 +70,8 @@ def create_query_engine(index):
       streaming=True,
       # Here we use the qwen-plus-0919 model. You can also use other Qwen text generation models provided by Alibaba Cloud: https://help.aliyun.com/zh/model-studio/getting-started/models#9f8890ce29g5u
       llm=OpenAILike(
-          model="qwen-plus-0919",
-          api_base="https://dashscope.aliyuncs.com/compatible-mode/v1",
+          model="qwen-plus",
+          api_base=os.getenv("DASHSCOPE_API_BASE"),
           api_key=os.getenv("DASHSCOPE_API_KEY"),
           is_chat_model=True
           ))

@@ -22,3 +22,26 @@ def evaluate_result(question, response, ground_truth):
         embeddings=DashScopeEmbeddings(model="text-embedding-v3")
     )
     return score.to_pandas()
+
+
+from typing import List
+from openai import OpenAI
+from ragas.embeddings.base import BaseRagasEmbeddings
+
+class RagasOpenAICompatibleEmbeddings(BaseRagasEmbeddings):
+    def __init__(self, model: str, base_url: str, api_key: str):
+        self.model = model
+        self.client = OpenAI(api_key=api_key, base_url=base_url)
+
+    def embed_texts(self, texts: List[str]):
+        resp = self.client.embeddings.create(
+            model=self.model,
+            input=texts,
+        )
+        return [d.embedding for d in resp.data]
+
+    def embed_documents(self, texts: List[str]):
+        return self.embed_texts(texts)
+
+    def embed_query(self, text: str):
+        return self.embed_texts([text])[0]
