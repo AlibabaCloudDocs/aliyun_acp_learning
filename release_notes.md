@@ -1,5 +1,18 @@
 # Release Notes
 
+## V2.4.3 新增 Harness Engineering 与 Loop Engineering 课程
+> 变更时间：2026.06.30
+
+Agent 会用工具、会调用 Skill、会跑评测之后，还需要回答一个更贴近业务的问题：怎样让它稳定完成一类任务，而不是只在当前对话里成功一次。本次更新新增 **3.8 用 Harness Engineering 和 Loop Engineering 打造可上线的业务能力**，通过技术文档流程图实验，讲解如何给具体业务任务补齐标准、工具、截图验证、运行记录、Reviewer 角色、停止条件和写回机制。
+
+**新增/优化内容**
+
+| Harness Engineering | Loop Engineering |
+| --- | --- |
+| 把标准、工具、验证、记录、权限和边界放进业务工作流 <img src="https://img.alicdn.com/imgextra/i1/O1CN01UWPoBN1O8n0wCII0M_!!6000000001661-55-tps-920-420.svg" width="600"> | 让 Agent 根据验证反馈判断下一轮该改作品、Skill、验证器还是标准 <img src="https://img.alicdn.com/imgextra/i4/O1CN01ObbYmO1n3cwfp2M81_!!6000000005034-55-tps-960-360.svg" width="600"> |
+
+<hr style="border: 2px solid black;">
+
 ## V2.4.2 模型微调改为模型蒸馏并新增可观测性内容
 > 变更时间：2026.04.30
 

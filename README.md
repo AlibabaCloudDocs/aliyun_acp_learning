@@ -14,6 +14,7 @@
 > 如果你尚不具备编程基础，或者想从零开始了解大模型，请跳转:point_right:[阿里云大模型ACA工程师认证课程](https://edu.aliyun.com/course/3126500)
 
 ## [最近更新](./release_notes.md)
+- [2026.06.30] V2.4.3 新增 Harness Engineering 与 Loop Engineering 课程
 - [2026.04.30] V2.4.2 微调改为蒸馏
 - [2026.04.10] V2.4.0 Qwen Code 实践课程
 - [2026.03.27] V2.3.0 新增 Agent Skills 章节
@@ -87,7 +88,7 @@
     <td style="padding:10px; border: 1px solid #ddd;">优化 RAG 应用提升问答准确度</td>
   </tr>
   <tr>
-    <td rowspan="8" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">C3 构建 Agent 系统</td>
+    <td rowspan="9" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">C3 构建 Agent 系统</td>
     <td style="padding:10px; border: 1px solid #ddd;">3.0</td>
     <td style="padding:10px; border: 1px solid #ddd;">从回答问题到解决问题</td>
   </tr>
@@ -118,6 +119,10 @@
   <tr>
     <td style="padding:10px; border: 1px solid #ddd;">3.7</td>
     <td style="padding:10px; border: 1px solid #ddd;">Qwen Code 实践</td>
+  </tr>
+  <tr>
+    <td style="padding:10px; border: 1px solid #ddd;">3.8</td>
+    <td style="padding:10px; border: 1px solid #ddd;">用 Harness Engineering 和 Loop Engineering 打造可上线的业务能力</td>
   </tr>
   <tr>
     <td rowspan="5" style="background-color:#f9f9f9; padding:10px; border: 1px solid #ddd; vertical-align:top;">C4 交付上线</td>
@@ -307,4 +312,3 @@ pip install -r requirements.txt
 
 如果你在学习过程中遇到任何问题，欢迎你[通过问卷提交评价和反馈学习体验](https://survey.aliyun.com/apps/zhiliao/Mo5O9vuie)。
 你的批评和鼓励都是我们前进的动力！
-
