@@ -31,4 +31,5 @@
 | 3.4 | 用Memory让Agent积累经验 | 短期/长期记忆 + 主动记忆管理 |
 | 3.5 | 用Skill将能力固化为可复用流程 | 从Prompt到Skill的演进 |
 | 3.6 | 用评测驱动Agent开发 | 端到端 + 白盒化评测 |
-| 3.7 | Qwen Code 实践 | 掌握Coding Agent的日常工作方式 |
+| 3.7 | Qwen Code实践 | 掌握Coding Agent的日常工作方式 |
+| 3.8 | 用 Harness Engineering 和 Loop Engineering 打造可上线的业务能力 | 标准、验证、记录和写回闭环 |
