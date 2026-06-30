@@ -35,6 +35,9 @@
 | 3.5 | 用 Skill 将能力固化为可复用流程 | 从 Prompt 到 Skill 的演进 |
 | 3.6 | 用评测驱动 Agent 开发 | 确定性检查 + LLM-as-Judge + Rubric 评分 |
 | 3.7 | Qwen Code 实践 | 掌握Coding Agent的日常工作方式 |
+| 3.8 | 用 Harness Engineering 和 Loop Engineering 打造可上线的业务能力 | 标准 + 验证 + 记录 + 写回闭环 |
+
+> 3.8 配套实验：`C3_构建Agent系统/课程实验/agent-workflow-illustration/`
 
 ### C4 交付上线
 
@@ -69,3 +72,18 @@
 | `utils/` | 工具函数（安全模块等） | 按需导入 |
 
 ---
+
+## 快速开始
+
+```bash
+# 1. 安装依赖
+pip install -r requirements.txt
+
+# 2. 配置 API Key
+# 在 config/Key.json 中填入百炼平台 API Key
+
+# 3. 验证环境
+python -c "from config.load_key import load_key; load_key(); print('✅ 环境就绪')"
+```
+
+**环境要求**：Python 3.9+ / 阿里云百炼平台 API Key / 依赖见 `requirements.txt`
