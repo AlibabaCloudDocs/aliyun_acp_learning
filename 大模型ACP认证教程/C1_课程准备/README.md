@@ -211,7 +211,7 @@ deactivate
 #### 3. 切换 Python 环境
 
 完成安装步骤后，点击顶部的 **"+"** 号回到欢迎页面（顶部标签为"启动台"），再点击 **JupyterLab** 卡片进入 Notebook 环境，你就可以在文件树中看到aliyun_acp_learning文件夹了。
- 
+<img src="https://img.alicdn.com/imgextra/i1/O1CN01bSnCEt204coVVMcUE_!!6000000006796-2-tps-2514-1430.png" width="800px" alt="DSW启动台：点击顶部+号回到欢迎页面，再点击JupyterLab进入开发环境">
 <img src="https://img.alicdn.com/imgextra/i3/O1CN01w44E5Q1P94lxtv9Bo_!!6000000001797-0-tps-1682-486.jpg" width="600px">
 
 接下来你可以在文件树中依次进入 aliyun_acp_learning-大模型ACP认证教程-**C2_构造问答系统** 文件夹，就能看到下一章的教程内容。
