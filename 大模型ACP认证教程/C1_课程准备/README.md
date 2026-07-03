@@ -110,7 +110,7 @@
 
 7. 首次进入 DSW 时，会直接显示欢迎页面（启动台）。此时 JupyterLab 已在后台启动，但你需要在欢迎页面中点击 **JupyterLab** 卡片，才能进入 Notebook 开发环境。后续的课程代码都将在 JupyterLab 中运行。
 
-    <img src="https://img.alicdn.com/imgextra/i1/O1CN01bSnCEt204coVVMcUE_!!6000000006796-2-tps-2514-1430.png" width="800px" alt="DSW启动台：点击顶部+号回到欢迎页面，再点击JupyterLab进入开发环境">
+    <img src="https://img.alicdn.com/imgextra/i4/O1CN016y1uAW26W0BPLWNLF_!!6000000007668-2-tps-1790-1018.png" width="800px" alt="DSW启动台：点击顶部+号回到欢迎页面，再点击JupyterLab进入开发环境">
 
     > 如果你已经进入了 Terminal 或其他工具，可以点击顶部的 **"+"** 号回到欢迎页面（顶部标签为"启动台"），再选择需要的工具。你在步骤二中会用到 Terminal（命令行终端），届时也可以通过这种方式打开。
 
