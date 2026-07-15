@@ -2,7 +2,7 @@ wrk.method = "POST"
 wrk.headers["Content-Type"] = "application/json"
 wrk.body = [[
     {
-       "model": "./model/qwen2_5-1_5b-instruct",
+       "model": "/mnt/workspace/model/Qwen3-0.6B",
        "messages": [
            {"role": "system", "content": "你是一个帮助助手。"},
            {"role": "user", "content": "请告诉我2008年北京奥运会，中国队总共获得了多少枚金牌？"}
