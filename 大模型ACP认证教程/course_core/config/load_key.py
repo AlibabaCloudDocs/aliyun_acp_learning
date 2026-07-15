@@ -24,13 +24,13 @@ def load_nltk():
     }
 
     # 3. 设置环境变量，对齐搜索路径
-    # 告诉 LlamaIndex：缓存根目录是 base_dir (它会自动往后拼 _static/nltk_cache)
-    os.environ["LLAMA_INDEX_CACHE_DIR"] = str(base_dir.resolve())
+    # 告诉 LlamaIndex：直接使用最深层 NLTK 缓存目录
+    os.environ["LLAMA_INDEX_CACHE_DIR"] = str(actual_cache_dir.resolve())
     # 告诉 NLTK 库：直接去最深层目录找
-    os.environ["NLTK_DATA"] = str(base_dir.resolve())
+    os.environ["NLTK_DATA"] = str(actual_cache_dir.resolve())
     
-    if str(base_dir) not in nltk.data.path:
-        nltk.data.path.insert(0, str(base_dir.resolve()))
+    if str(actual_cache_dir.resolve()) not in nltk.data.path:
+        nltk.data.path.insert(0, str(actual_cache_dir.resolve()))
 
     # 4. 循环检查并按需下载
     actual_cache_dir.mkdir(parents=True, exist_ok=True)
