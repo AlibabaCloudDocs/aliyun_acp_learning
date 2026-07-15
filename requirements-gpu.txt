@@ -1,0 +1,33 @@
+# GPU 微调与部署依赖
+# 验证镜像：modelscope:1.38.0.1-pytorch2.10.0-gpu-py312-cu128-ubuntu22.04
+#
+# 安装方式：
+#   pip install -i https://mirrors.aliyun.com/pypi/simple/ -r requirements-gpu.txt
+#   pip uninstall -y ms-opencompass g2p ms-funcodec
+#   pip check
+#
+# 说明：
+# - 本文件包含通用课程依赖，并额外固定 4.1 微调与 4.2 部署所需 GPU 依赖。
+# - 不建议在 CPU 实例安装本文件；CPU 实例请只安装 requirements.txt。
+
+-r requirements.txt
+
+torch==2.10.0
+torchaudio==2.10.0
+torchvision==0.25.0
+ms-swift==4.2.3
+transformers==5.8.1
+tokenizers==0.22.2
+accelerate==1.14.0
+datasets==4.8.4
+peft==0.19.1
+trl==0.29.1
+sentencepiece==0.2.2
+transformers-stream-generator==0.0.5
+vllm==0.19.1
+opencv-python-headless==4.13.0.92
+
+# DSW GPU 镜像中 ms-agent 的 pip check 补齐项。
+edge-tts==7.2.8
+moviepy==2.2.1
+proglog==0.1.12
