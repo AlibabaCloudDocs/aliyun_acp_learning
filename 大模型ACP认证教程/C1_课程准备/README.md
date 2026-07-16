@@ -139,7 +139,6 @@ PAI-DSW 不是必选项。如果你想零成本学习，可以使用 [ModelScope
 | 配置项 | 选择 |
 | --- | --- |
 | 资源规格 | `ecs.gn7i-c8g1.2xlarge`（8 vCPU，30 GiB，NVIDIA A10 * 1） |
-| 镜像类型 | 自定义镜像 |
 | 镜像地址 | `crpi-mh4e7zguxmvd98wb.cn-hangzhou.personal.cr.aliyuncs.com/aly-llm-acp/aly-llm-acp:aly-llm-acp-gpu01` |
 
 > **想少等环境，直接进实验，就用这份课程镜像。**  
