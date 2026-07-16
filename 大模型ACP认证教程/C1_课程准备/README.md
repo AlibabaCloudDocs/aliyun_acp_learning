@@ -43,7 +43,7 @@
 >
 > - **3 个月有效期不等于 3 个月无限免费。** 免费试用按“计算时”抵扣：领取后 3 个月内，每月发放 250 计算时，总计可享 750 计算时；当月额度用尽后，超出部分会按量计费。
 > - **课程费用不包含 PAI-DSW 资源费用。** PAI-DSW 是阿里云产品资源，免费试用资格、额度、地域和实例规格以控制台实际页面为准。
-> - **初学者建议先用 CPU 实例。** 本课程大多数内容使用 CPU 实例即可完成。只有《4.1 用蒸馏让小模型掌握专业能力》和《4.2 部署模型》两个课程建议使用 GPU 实例；如果使用 GPU，请参考本课时的环境准备步骤单独创建 GPU 实例，并按 4.1、4.2 课程开头的说明安装各自所需依赖。GPU 实例消耗计算时更快，也更容易在额度用尽后产生较高费用。
+> - **初学者建议先用 CPU 实例。** 本课程大多数内容使用 CPU 实例即可完成。只有《4.1 用蒸馏让小模型掌握专业能力》和《4.2 部署模型》两个课程建议使用 GPU 实例。为了减少 GPU 依赖安装等待时间，课程提供了预置 GPU 镜像；如果你要学习 4.1 或 4.2，可以参考本课时后面的 GPU 实例与镜像配置说明单独创建 GPU 实例。GPU 实例消耗计算时更快，也更容易在额度用尽后产生较高费用。
 > - **关闭浏览器不等于停止实例。** 不学习时必须回到 DSW 实例列表，手动执行“停止”或“删除”。
 
 > **本教程将以 <u>PAI-DSW</u> 为例演示云端环境的创建步骤，不代表必须使用 PAI-DSW。** 如果你选择 **本地 IDE**，可以在本地终端中参考 **[步骤二：获取课程代码并安装依赖环境]** 下载代码并安装依赖；如果你选择 **ModelScope Notebook**，可以访问 [魔搭社区我的Notebook](https://modelscope.cn/my/mynotebook) 自行创建实例后，再参考步骤二继续操作。
@@ -53,84 +53,137 @@
 
 ### 步骤一：创建 PAI DSW 实例
 
-> ### **继续创建 PAI-DSW 实例前，请确认**
->
-> PAI-DSW 是可选环境，可能产生云资源费用。继续创建前，请确认你已经领取免费试用额度，或明确接受按量付费规则。
->
-> 如果你只是想零成本完成课程，请直接使用 [ModelScope 免费 Notebook](https://modelscope.cn/my/mynotebook) 或本地 IDE，不需要开通 PAI-DSW。
+这一节只做一件事：创建一个 DSW 实例，然后打开 JupyterLab。
 
-**PAI-DSW 免费试用说明**：如果你是已完成认证的阿里云用户，且是 PAI-DSW 产品新用户，可以尝试通过[阿里云的免费试用频道](https://free.aliyun.com/?searchKey=%E4%BA%A4%E4%BA%92%E5%BC%8F%E5%BB%BA%E6%A8%A1+PAI-DSW)领取免费试用额度。当前免费试用规则通常是：领取后 3 个月内，每月发放 250 计算时，总计可享 750 计算时；每月额度用尽后，超出部分会按量计费。
+如果你只是跟着课程跑代码，先用 CPU。等学到 4.1、4.2 微调和部署时，再单独创建 GPU 实例。
 
-> 免费试用资格、额度、可用机型和活动规则可能调整，请以免费试用页面和 PAI-DSW 控制台实际展示为准。创建实例前，请确认页面上显示的是“免费试用”页签中的可用规格，并确认计费提示符合你的预期。
+#### 1. 先确认要不要用 DSW
+
+PAI-DSW 不是必选项。如果你想零成本学习，可以使用 [ModelScope 免费 Notebook](https://modelscope.cn/my/mynotebook) 或本地 IDE。
+
+如果你决定使用 PAI-DSW，先确认这几件事：
+
+| 确认项 | 建议 |
+| --- | --- |
+| 免费试用额度 | 不确定有没有额度时，先不要创建实例 |
+| 实例规格 | 1.x、2.x、3.x 用 CPU；4.1、4.2 再用 GPU |
+| 计费风险 | 学完及时停止或删除实例 |
+
+如果你是已完成认证的阿里云用户，且是 PAI-DSW 产品新用户，可以尝试通过[阿里云免费试用频道](https://free.aliyun.com/?searchKey=%E4%BA%A4%E4%BA%92%E5%BC%8F%E5%BB%BA%E6%A8%A1+PAI-DSW)领取免费试用额度。免费试用通常按计算时抵扣，不是无限免费；当月额度用完后，超出部分会按量计费。
+
+> 免费试用资格、额度、可用机型和活动规则可能调整，请以控制台实际展示为准。创建实例前，请确认页面上显示的是“免费试用”页签中的可用规格，并确认计费提示符合你的预期。
 
 <img src="https://scms-prod-sh-public.oss-cn-shanghai.aliyuncs.com/course_picture/eswmhiaayvhezjzedlrf.png" width="260px" alt="免费试用">
 
-> 如果你**没有免费试用资格**，或不想使用 PAI-DSW，也可以直接使用 [ModelScope 的免费 Notebook 功能](https://modelscope.cn/my/mynotebook) 完成本教程的学习。
+如果你遇到**没有免费 CPU 资源**的情况，可以在 PAI-DSW 控制台左上角切换地域到杭州或张家口等地。
 
-> 如果你遇到**没有免费CPU资源**的情况，你可以尝试在 PAI DSW 控制台左上角切换地域到杭州或张家口等地。
 <img src="https://img.alicdn.com/imgextra/i3/O1CN013fGAf41dmNTgcpcpM_!!6000000003778-2-tps-1922-872.png" width="700px" alt="免费试用">
+<br/><br/>
 <img src="https://img.alicdn.com/imgextra/i3/O1CN01ea56RX24SDffLjf07_!!6000000007389-2-tps-1310-526.png" width="500px" alt="免费试用">
 
-如果你已领取免费试用，或你已明确接受 PAI-DSW 的按量付费规则，请按以下步骤创建实例：
+#### 2. 选择 CPU 还是 GPU
 
-1.  前往[PAI控制台](https://pai.console.aliyun.com/?regionId=cn-hangzhou#/workspace/overview)。
-    
-2.  如果你没有开通PAI平台服务，根据指引开通PAI并创建默认工作空间，点击**一键开通**。等待开通完成后，点击**进入控制台**。
-    
-    <img src="https://img.alicdn.com/imgextra/i4/O1CN01RWJ2Qr1Q17YDtnLKp_!!6000000001915-2-tps-1672-1014.png" width="600px">
+先看你学到哪一章：
 
-3.  点击左侧边栏的**交互式建模（DSW）**，点击**新建实例**。
+| 学习内容 | 推荐实例 | 镜像 | 说明 |
+| --- | --- | --- | --- |
+| 1.x、2.x、3.x：普通代码开发、RAG、Agent、评测等 | `ecs.g6.xlarge` | 官方镜像 | 默认选择 |
+| 4.1、4.2：模型蒸馏、微调、部署 | `ecs.gn7i-c8g1.2xlarge` | 课程 GPU 预置镜像 | 只在学习这两节时创建 |
 
-    <img src="https://img.alicdn.com/imgextra/i2/O1CN01CrbZLb1OEk0wgkBQe_!!6000000001674-0-tps-846-1076.jpg" width="300px">
+> 经验建议：不要一开始就开 GPU。GPU 费用更高，也消耗免费额度更快。前面章节用 CPU 学习即可。
 
+#### 3. 进入 DSW 创建页
 
-4. 在新建实例页面，填写实例名称、选择资源规格和镜像：
+1. 前往 [PAI 控制台](https://pai.console.aliyun.com/?regionId=cn-hangzhou#/workspace/overview)。
+2. 如果页面提示未开通 PAI，按提示点击**一键开通**。开通完成后，点击**进入控制台**。
 
-    <img src="https://img.alicdn.com/imgextra/i1/O1CN01COwYFj1ERQtap4LW4_!!6000000000348-2-tps-2198-1388.png" width="500px">
+<img src="https://img.alicdn.com/imgextra/i4/O1CN01RWJ2Qr1Q17YDtnLKp_!!6000000001915-2-tps-1672-1014.png" width="600px">
 
-      *   **实例名称**：可以填写**aliyun\_acp\_learning**，或者其他方便自己记忆和查找的名字。
-    
-      *   **资源规格**：优先选择**免费试用页签**中的**ecs.g6.xlarge**。如果页面没有“免费试用”页签、没有可用免费规格，或计费提示不是你预期的免费额度抵扣，请先不要创建实例，改用 ModelScope Notebook 或本地 IDE。
+3. 点击左侧边栏的**交互式建模（DSW）**，点击**新建实例**。
 
-          <img src="https://img.alicdn.com/imgextra/i4/O1CN01eRCLAY1rPO7SxGEfr_!!6000000005623-0-tps-1434-772.jpg" width="500px">
+<img src="https://img.alicdn.com/imgextra/i2/O1CN01CrbZLb1OEk0wgkBQe_!!6000000001674-0-tps-846-1076.jpg" width="300px">
 
-          > **初学者建议先选择 CPU 实例。** `ecs.g6.xlarge` 足以运行本课程的大多数项目。只有《4.1 用蒸馏让小模型掌握专业能力》和《4.2 部署模型》两个课程建议使用 GPU；需要使用 GPU 时，请参考本课时的环境准备步骤单独创建 GPU 实例，并按 4.1、4.2 课程开头的说明安装各自所需依赖。
-    
-      *   **镜像**：本例需要选择`CPU类型`的镜像，推荐使用 `python 版本为 3.10` 的镜像方便后续配置，你可以通过下图方式筛选符合条件的最新镜像（如：modelscope:1.23.1-pytorch2.3.1-cpu-py310-ubuntu22.04）。 
+#### 4. 填写实例信息
 
-          <img src="https://img.alicdn.com/imgextra/i2/O1CN01ZVCibE1es9zqe9BPv_!!6000000003926-0-tps-1886-1240.jpg" width="800px">
-          
-5. 创建前再次检查资源规格、地域和计费提示。确认无误后，单击**确定**，完成实例的创建，实例创建通常不会超过 5 分钟。
+在新建实例页面，先填写实例名称，再选择资源规格和镜像。
 
-    <img src="https://img.alicdn.com/imgextra/i3/O1CN013NKRsk1EFyyI9Sw3C_!!6000000000323-0-tps-1852-962.jpg" width="600px">
+| 配置项 | 填写建议 |
+| --- | --- |
+| 实例名称 | 可以填写 `aliyun_acp_learning`，或其他方便记忆的名称 |
+| 地域 | 优先选择有可用资源和免费额度的地域 |
+| 资源规格 | 按第 2 节选择 CPU 或 GPU |
+| 镜像 | 按下面的说明选择 |
 
-6. 当实例状态为运行中时，单击**操作**列中的**打开**，进入 DSW 开发环境。
+<img src="https://img.alicdn.com/imgextra/i1/O1CN01COwYFj1ERQtap4LW4_!!6000000000348-2-tps-2198-1388.png" width="500px">
 
-    <img src="https://img.alicdn.com/imgextra/i2/O1CN01S61kqY29kbYF456Pq_!!6000000008106-0-tps-1916-596.jpg" width="600px">
+#### 5. 如果你选 CPU
 
-7. 首次进入 DSW 时，会直接显示欢迎页面（启动台）。此时 JupyterLab 已在后台启动，但你需要在欢迎页面中点击 **JupyterLab** 卡片，才能进入 Notebook 开发环境。后续的课程代码都将在 JupyterLab 中运行。
+适用于 1.x、2.x、3.x 课程，也是默认推荐路径。
 
-    <img src="https://img.alicdn.com/imgextra/i4/O1CN016y1uAW26W0BPLWNLF_!!6000000007668-2-tps-1790-1018.png" width="800px" alt="DSW启动台：点击顶部+号回到欢迎页面，再点击JupyterLab进入开发环境">
+| 配置项 | 选择 |
+| --- | --- |
+| 资源规格 | 优先选择**免费试用页签**中的 `ecs.g6.xlarge` |
+| 镜像类型 | 官方镜像 |
+| 镜像版本 | 推荐使用 `modelscope:1.38.0.1-pytorch2.10.0-gpu-py312-cu128-ubuntu22.04` |
 
-    > 如果你已经进入了 Terminal 或其他工具，可以点击顶部的 **"+"** 号回到欢迎页面（顶部标签为"启动台"），再选择需要的工具。你在步骤二中会用到 Terminal（命令行终端），届时也可以通过这种方式打开。
+如果页面没有“免费试用”页签、没有可用免费规格，或计费提示不符合预期，先不要创建实例。可以改用 ModelScope Notebook 或本地 IDE。
+
+<img src="https://img.alicdn.com/imgextra/i4/O1CN01eRCLAY1rPO7SxGEfr_!!6000000005623-0-tps-1434-772.jpg" width="500px">
+<br/><br/>
+<img src="https://img.alicdn.com/imgextra/i2/O1CN01ZVCibE1es9zqe9BPv_!!6000000003926-0-tps-1886-1240.jpg" width="800px">
+
+#### 6. 如果你选 GPU
+
+只在学习《4.1 用蒸馏让小模型掌握专业能力》和《4.2 部署模型》时使用。创建前再确认一次计费方式和免费额度。
+
+| 配置项 | 选择 |
+| --- | --- |
+| 资源规格 | `ecs.gn7i-c8g1.2xlarge`（8 vCPU，30 GiB，NVIDIA A10 * 1） |
+| 镜像类型 | 自定义镜像 |
+| 镜像地址 | `crpi-mh4e7zguxmvd98wb.cn-hangzhou.personal.cr.aliyuncs.com/aly-llm-acp/aly-llm-acp:aly-llm-acp-gpu01` |
+
+这份镜像已经预装 GPU 依赖，可以省掉约 1.5 小时的安装等待。下载模型文件后，就可以开始微调实验。如果当前地域没有 GPU 库存，可以切换地域，或选择同等/更高显存的 GPU 规格。
+
+<img src="https://img.alicdn.com/imgextra/i1/O1CN01jPlDOb1Sf5PYIKQvh_!!6000000002273-2-tps-2444-1762.png" width="800px" alt="从镜像创建 DSW GPU 实例">
+
+#### 7. 创建并打开实例
+
+1. 创建前再次检查资源规格、镜像、地域和计费提示。
+2. 确认无误后，单击**确定**。实例创建通常不超过 5 分钟。
+
+<img src="https://img.alicdn.com/imgextra/i3/O1CN013NKRsk1EFyyI9Sw3C_!!6000000000323-0-tps-1852-962.jpg" width="600px">
+
+3. 当实例状态为运行中时，单击**操作**列中的**打开**，进入 DSW 开发环境。
+
+<img src="https://img.alicdn.com/imgextra/i2/O1CN01S61kqY29kbYF456Pq_!!6000000008106-0-tps-1916-596.jpg" width="600px">
+
+4. 首次进入 DSW 时，会看到欢迎页面（启动台）。点击 **JupyterLab**，进入 Notebook 开发环境。
+
+<img src="https://img.alicdn.com/imgextra/i4/O1CN016y1uAW26W0BPLWNLF_!!6000000007668-2-tps-1790-1018.png" width="800px" alt="DSW启动台：点击顶部+号回到欢迎页面，再点击JupyterLab进入开发环境">
+
+如果你已经进入了 Terminal 或其他工具，可以点击顶部的 **"+"** 号回到启动台，再选择 JupyterLab。步骤二会用到 Terminal，后面也可以用同样的方法打开。
+
+#### 8. 完成标准
+
+看到 JupyterLab 页面，就说明步骤一完成。接下来进入步骤二，在 Terminal 中获取课程代码并安装依赖。
 
 > ### **学习结束后，请及时停止或删除 PAI-DSW 实例**
-> 
-> 仅关闭浏览器、关闭 Notebook 页面或电脑休眠，都不会自动停止云端实例。不使用 PAI-DSW 时，请返回 DSW 实例列表，对实例执行 **停止** 或 **删除** 操作。
 >
-> *   **停止**：中止计算资源（CPU/GPU）的计费，保留存储。
-> *   **删除**：彻底释放所有资源，中止**所有**计费（包括可能产生的存储费用）。
-> *   **建议**：每天学习结束后立即停止实例；如果后续不再使用，直接删除实例。
-> 
-> 更多规则、资源释放的详细步骤，请参阅官方文档：[**PAI 免费试用领取、使用和释放**](https://help.aliyun.com/zh/pai/getting-started/free-trial-guide)。
-
+> 只关闭浏览器、Notebook 页面或电脑盖子，都不会停止云端实例。不学习时，请回到 DSW 实例列表，执行 **停止** 或 **删除**。
+>
+> | 操作 | 作用 |
+> | --- | --- |
+> | 停止 | 中止计算资源（CPU/GPU）的计费，保留存储 |
+> | 删除 | 彻底释放所有资源，中止所有计费，包括可能产生的存储费用 |
+>
+> 建议每天学习结束后立即停止实例；如果后续不再使用，直接删除实例。更多规则、资源释放的详细步骤，请参阅官方文档：[**PAI 免费试用领取、使用和释放**](https://help.aliyun.com/zh/pai/getting-started/free-trial-guide)。
 
 
 ### 步骤二： 获取课程代码并安装依赖环境
 
 无论你使用本地 IDE、ModelScope Notebook 还是 PAI-DSW，后续都需要先获取课程代码，并安装 Python 依赖。
 
-如果你使用 PAI-DSW，可以点击顶部的 **"+"** 号回到欢迎页面（顶部标签为"启动台"），然后点击 **Terminal** 卡片打开命令行终端。建议在 Terminal 中输入 `python --version` 确认当前 Python 版本为 3.10，并输入 `pwd` 确认当前所在目录为 <mark>/mnt/workspace</mark>。
+如果你使用 PAI-DSW，可以点击顶部的 **"+"** 号回到欢迎页面（顶部标签为"启动台"），然后点击 **Terminal** 卡片打开命令行终端。建议在 Terminal 中输入 `python --version` 查看当前 Python 版本，并输入 `pwd` 确认当前所在目录为 <mark>/mnt/workspace</mark>。
 
 ```bash
 python --version
@@ -238,7 +291,23 @@ deactivate
 
 ### DSW 的常见问题
 
-#### Q1：为什么 DSW 里的 WebIDE 和 Notebook 交互输入框位置不一样？
+#### Q1：选择 `Python (llm_learn)` 内核后，Notebook 一直显示 Connecting，或者很快断开，怎么办？
+
+**答：** 这通常说明 Jupyter 内核注册信息和当前实例中的 `llm_learn` 环境没有正确对应。课程安装脚本会自动处理内核注册；如果你使用的是课程 GPU 预置镜像，或实例由镜像复制而来，偶尔也可能遇到内核连接异常。
+
+可以先在 DSW 的 Terminal 中重新执行安装脚本；如果你只需要重新注册内核，也可以在 Terminal 中执行：
+
+```bash
+source llm_learn/bin/activate
+python -m ipykernel install --user --name llm_learn --display-name "Python (llm_learn)"
+deactivate
+```
+
+执行完成后，回到 Notebook 页面，重新选择 `Python (llm_learn)` 内核。如果仍然连接不上，可以重启当前 DSW 实例后再试。
+
+---
+
+#### Q2：为什么 DSW 里的 WebIDE 和 Notebook 交互输入框位置不一样？
 
 **答：** 在 2.1 教程中，你会输入 API Key。如果你使用 Notebook，输入框会显示在运行代码块的下方，比较容易看到。
 
@@ -250,7 +319,7 @@ deactivate
 
 ---
 
-#### Q2：在 Notebook 中能够直接看到图片，可是为什么双击图片所在的 Markdown 块后，图片就显示不出来了？
+#### Q3：在 Notebook 中能够直接看到图片，可是为什么双击图片所在的 Markdown 块后，图片就显示不出来了？
 
 **答：** 这是因为双击图片所在的 Markdown 块后就进入了编辑模式。点击 Markdown 块之外的代码块，回到查看模式后，图片就会重新显示。
 
@@ -258,7 +327,7 @@ deactivate
 
 ---
 
-#### Q3：我注意到 Git 仓库有更新，应该怎么拉取到最新代码？
+#### Q4：我注意到 Git 仓库有更新，应该怎么拉取到最新代码？
 
 **答：** 你可以在命令行（Terminal）中操作。
 
@@ -278,7 +347,7 @@ git pull
 
 ---
 
-#### Q4：我在执行 `git clone` 命令时，速度很慢，并且报了超时的错误，应该怎么办？
+#### Q5：我在执行 `git clone` 命令时，速度很慢，并且报了超时的错误，应该怎么办？
 
 **答：** 你可以停止该实例，在切换到其它地域后，重新创建一个实例并拉取代码。
 
@@ -286,7 +355,7 @@ git pull
 
 ---
 
-#### Q5：我已经在线下课程、DSW、ModelScope 或本地 Notebook 中学完并运行了代码，为什么课程网页里没有显示“已学完”？
+#### Q6：我已经在线下课程、DSW、ModelScope 或本地 Notebook 中学完并运行了代码，为什么课程网页里没有显示“已学完”？
 
 **答：** 本课程主要面向线下学习场景。DSW、ModelScope 和本地 IDE 是代码运行环境，不会自动把你的学习和运行记录同步到课程网页。
 
@@ -296,7 +365,7 @@ git pull
 
 ---
 
-#### Q6：如果 PAI-DSW 已经产生费用或欠费，应该怎么处理？
+#### Q7：如果 PAI-DSW 已经产生费用或欠费，应该怎么处理？
 
 **答：** PAI-DSW 是阿里云产品资源，费用和欠费处理以阿里云控制台为准，课程内容无法代为处理账单、退费或欠费恢复。
 
