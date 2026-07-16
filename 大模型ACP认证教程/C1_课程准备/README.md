@@ -142,7 +142,10 @@ PAI-DSW 不是必选项。如果你想零成本学习，可以使用 [ModelScope
 | 镜像类型 | 自定义镜像 |
 | 镜像地址 | `crpi-mh4e7zguxmvd98wb.cn-hangzhou.personal.cr.aliyuncs.com/aly-llm-acp/aly-llm-acp:aly-llm-acp-gpu01` |
 
-这份镜像已经预装 GPU 依赖，可以省掉约 1.5 小时的安装等待。下载模型文件后，就可以开始微调实验。如果当前地域没有 GPU 库存，可以切换地域，或选择同等/更高显存的 GPU 规格。
+> **想少等环境，直接进实验，就用这份课程镜像。**  
+> 这份镜像已经预装 GPU 依赖。实例启动后，通常只需要下载模型文件，就可以进入微调实验，不用再花一个小时等待 GPU 环境安装。
+
+如果当前地域没有 GPU 库存，可以切换地域，或选择同等/更高显存的 GPU 规格。
 
 <img src="https://img.alicdn.com/imgextra/i1/O1CN01jPlDOb1Sf5PYIKQvh_!!6000000002273-2-tps-2444-1762.png" width="800px" alt="从镜像创建 DSW GPU 实例">
 
