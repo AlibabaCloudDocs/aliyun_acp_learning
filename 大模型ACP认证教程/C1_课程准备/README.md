@@ -66,7 +66,7 @@ PAI-DSW 不是必选项。如果你想零成本学习，可以使用 [ModelScope
 | 确认项 | 建议 |
 | --- | --- |
 | 免费试用额度 | 不确定有没有额度时，先不要创建实例 |
-| 实例规格 | 1.x、2.x、3.x 用 CPU；4.1、4.2 再用 GPU |
+| 实例规格 | 课程 1.x、2.x、3.x 用 CPU；课程 4.1、4.2 再用 GPU |
 | 计费风险 | 学完及时停止或删除实例 |
 
 如果你是已完成认证的阿里云用户，且是 PAI-DSW 产品新用户，可以尝试通过[阿里云免费试用频道](https://free.aliyun.com/?searchKey=%E4%BA%A4%E4%BA%92%E5%BC%8F%E5%BB%BA%E6%A8%A1+PAI-DSW)领取免费试用额度。免费试用通常按计算时抵扣，不是无限免费；当月额度用完后，超出部分会按量计费。
@@ -78,7 +78,7 @@ PAI-DSW 不是必选项。如果你想零成本学习，可以使用 [ModelScope
 如果你遇到**没有免费 CPU 资源**的情况，可以在 PAI-DSW 控制台左上角切换地域到杭州或张家口等地。
 
 <img src="https://img.alicdn.com/imgextra/i3/O1CN013fGAf41dmNTgcpcpM_!!6000000003778-2-tps-1922-872.png" width="700px" alt="免费试用">
-<br/><br/>
+<br/>
 <img src="https://img.alicdn.com/imgextra/i3/O1CN01ea56RX24SDffLjf07_!!6000000007389-2-tps-1310-526.png" width="500px" alt="免费试用">
 
 #### 2. 选择 CPU 还是 GPU
@@ -129,7 +129,7 @@ PAI-DSW 不是必选项。如果你想零成本学习，可以使用 [ModelScope
 如果页面没有“免费试用”页签、没有可用免费规格，或计费提示不符合预期，先不要创建实例。可以改用 ModelScope Notebook 或本地 IDE。
 
 <img src="https://img.alicdn.com/imgextra/i4/O1CN01eRCLAY1rPO7SxGEfr_!!6000000005623-0-tps-1434-772.jpg" width="500px">
-<br/><br/>
+<br/>
 <img src="https://img.alicdn.com/imgextra/i2/O1CN01ZVCibE1es9zqe9BPv_!!6000000003926-0-tps-1886-1240.jpg" width="800px">
 
 #### 6. 如果你选 GPU
