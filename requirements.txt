@@ -43,6 +43,7 @@ lagent==0.1.2
 mmengine==0.10.3
 modelscope==1.38.0
 agentscope==1.0.18
+mcp<2.0  # agentscope 1.x 依赖旧 streamablehttp_client 名称，mcp v2 已重命名
 mem0ai==2.0.0
 ipywidgets==8.1.7
 nbconvert==7.17.1
